@@ -1,0 +1,7 @@
+#sticky-div {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  color: white;
+  background-color: #333;
+}

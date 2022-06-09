@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
-import "./App.css";
-import Navbar from "./component/Navbar";
+import React from "react";
+import Home from "./Page/Home";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <Navbar />
+      <Home />
     </div>
   );
-}
+};
 
 export default App;
