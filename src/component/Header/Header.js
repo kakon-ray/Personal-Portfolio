@@ -104,12 +104,12 @@ const Header = () => {
           detectRetina: true,
         }}
       ></Particles>
-      <div className="absolute top-40 mx-12 ">
-        <h3 className="text-white text-4xl">Welcome To My Site</h3>
-        <h1 className="text-7xl text-white py-8">
+      <div className="absolute top-40 mx-12 pt-8">
+        <h3 className="text-white text-3xl">Welcome To My Site</h3>
+        <h1 className="text-6xl text-white py-8">
           Hello! I'm Kakon Ray <br></br> An Full Stack Developer.
         </h1>
-        <p className="text-white text-2xl">
+        <p className="text-white text-xl">
           As a Web developer, I always have enthusiasm and hunger for learning
           new technologies.<br></br> I am always ready to deliver my full
           potential to the company I am committed.
