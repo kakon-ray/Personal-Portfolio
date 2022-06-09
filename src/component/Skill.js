@@ -2,11 +2,11 @@ import React from "react";
 
 const Skill = () => {
   return (
-    <div className="mx-12 py-12">
-      <div className="grid grid-cols1 md:grid-cols-2 content-center">
+    <div className=" py-12 bg-black" id="skill">
+      <div className="grid grid-cols1 md:grid-cols-2 content-center mx-12 text-white">
         <div>
-          <h3 class="text-4xl text-pink-600-700 font-bold mb-6 ml-24">
-            Education
+          <h3 class="text-4xl text-pink-600-700 font-bold mb-6 ml-24 py-8 uppercase">
+            Certificate
           </h3>
 
           <div className="flex items-center flex-col">
@@ -29,7 +29,7 @@ const Skill = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="block p-6 rounded-lg shadow-lg bg-pink-600-100 max-w-lg ml-6 mb-10">
+                  <div class="block p-6 rounded-lg shadow-lg shadow-stone-500 bg-pink-600-100 max-w-lg ml-6 mb-10">
                     <div>
                       <h1 class="font-medium text-pink-600 hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
                         BSC in Computer Science & Engineering
@@ -79,7 +79,7 @@ const Skill = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="block p-6 rounded-lg shadow-lg bg-pink-600-100 max-w-lg ml-6 mb-10">
+                  <div class="block p-6 rounded-lg shadow-lg shadow-stone-500 bg-pink-600-100 max-w-lg ml-6 mb-10">
                     <div>
                       <h1 class="font-medium text-pink-600 hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
                         Web Development
@@ -130,7 +130,7 @@ const Skill = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="block p-6 rounded-lg shadow-lg bg-pink-600-100 max-w-lg ml-6 mb-10">
+                  <div class="block p-6 rounded-lg shadow-lg shadow-stone-500 bg-pink-600-100 max-w-lg ml-6 mb-10">
                     <div>
                       <h1 class="font-medium text-pink-600 hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
                         Full Stack Web Development
@@ -182,7 +182,7 @@ const Skill = () => {
           </div>
         </div>
         <div>
-          <h3 class="text-4xl text-pink-600-700 font-bold mb-6 ml-24">
+          <h3 class="text-4xl text-pink-600-700 font-bold mb-6 ml-24 py-8 uppercase">
             Experience
           </h3>
 
@@ -206,16 +206,19 @@ const Skill = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="block p-6 rounded-lg shadow-lg bg-pink-600-100 max-w-lg ml-6 mb-10">
+                  <div class="block p-6 rounded-lg shadow-lg shadow-stone-500 bg-pink-600-100 max-w-lg ml-6 mb-10">
                     <div>
                       <h1 class="font-medium text-pink-600 hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
                         Front End Development
                       </h1>
+                      <p class="font-medium text-pink-600 hover:text-pink-600-700 py-2 focus:text-pink-600-800 duration-300 transition ease-in-out text-sm">
+                        JavaScript, React.js, HTML5, CSS3, React-Bootstrap,
+                        Tailwind CSS, Firebase, Firebase Auth,
+                      </p>
                       <p class="text-pink-600-700 mb-6">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Quisque scelerisque diam non nisi semper, et elementum
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque scelerisque diam non nisi semper, et elementum
                       </p>
                     </div>
 
@@ -266,11 +269,14 @@ const Skill = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="block p-6 rounded-lg shadow-lg bg-pink-600-100 max-w-lg ml-6 mb-10">
+                  <div class="block p-6 rounded-lg shadow-lg shadow-stone-500 bg-pink-600-100 max-w-lg ml-6 mb-10">
                     <div>
                       <h1 class="font-medium text-pink-600 hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
                         Back End Development
                       </h1>
+                      <p class="font-medium text-pink-600 hover:text-pink-600-700 py-2 focus:text-pink-600-800 duration-300 transition ease-in-out text-sm">
+                        Node.js, Express.js, MongoDB
+                      </p>
                     </div>
                     <p class="text-pink-600-700 mb-6">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -325,20 +331,20 @@ const Skill = () => {
                       ></path>
                     </svg>
                   </div>
-                  <div class="block p-6 rounded-lg shadow-lg bg-pink-600-100 max-w-lg ml-6 mb-10">
+                  <div class="block p-6 rounded-lg shadow-lg shadow-stone-500 bg-pink-600-100 max-w-lg ml-6 mb-10">
                     <div>
                       <h1 class="font-medium text-pink-600 hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
                         Full Stack Development
                       </h1>
                       <p class="font-medium text-pink-600 hover:text-pink-600-700 py-2 focus:text-pink-600-800 duration-300 transition ease-in-out text-sm">
-                        04 / 02 / 2022
+                        Responsive Design, Frontend development, Backend
+                        development
                       </p>
                     </div>
                     <p class="text-pink-600-700 mb-6">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                       Quisque scelerisque diam non nisi semper, et elementum
-                      lorem ornare. Maecenas placerat facilisis mollis. Duis
-                      sagittis ligula in sodales vehicula.
+                      lorem ornare. Maecenas placerat facilisis mollis.
                     </p>
                     <div>
                       <a

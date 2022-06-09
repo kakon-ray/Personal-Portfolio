@@ -1,6 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
+}
+
+.bg-black {
+  background-color: #333333 !important;
 }

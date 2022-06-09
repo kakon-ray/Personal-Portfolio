@@ -20,7 +20,11 @@ const Header = () => {
   };
 
   return (
-    <div className="bg-black" style={{ heigth: "400px" }}>
+    <div
+      className="bg-black pb-12 md:pb-0"
+      style={{ heigth: "400px" }}
+      id="header"
+    >
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -100,7 +104,7 @@ const Header = () => {
           detectRetina: true,
         }}
       ></Particles>
-      <div className="absolute top-40 mx-12">
+      <div className="absolute top-40 mx-12 ">
         <h3 className="text-white text-4xl">Welcome To My Site</h3>
         <h1 className="text-7xl text-white py-8">
           Hello! I'm Kakon Ray <br></br> An Full Stack Developer.
