@@ -3,7 +3,7 @@ import React from "react";
 
 const ProjectItem = ({ img, title }) => {
   return (
-    <section className="shadow-lg shadow-pink-600 pb-4 hover:shadow-white transition delay-150  rounded-top  text-center">
+    <section className="shadow-md shadow-pink-600 pb-4 hover:shadow-white transition delay-150  rounded-top  text-center">
       <div
         class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover project-item container"
         style={{ backgroundPosition: "50%" }}

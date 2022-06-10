@@ -33,7 +33,7 @@ const Header = () => {
           fullScreen: { enable: false, zIndex: 0 },
           background: {
             color: {
-              value: `#333`,
+              value: `#000000`,
             },
           },
           fpsLimit: 120,
@@ -106,7 +106,7 @@ const Header = () => {
       ></Particles>
       <div className="absolute top-40 mx-12 pt-8">
         <h3 className="text-white text-3xl">Welcome To My Site</h3>
-        <h1 className="text-6xl text-white py-8">
+        <h1 className="text-3xl lg:text-5xl text-white py-8">
           Hello! I'm Kakon Ray <br></br> An Full Stack Developer.
         </h1>
         <p className="text-white text-xl">

@@ -3,13 +3,28 @@ import React from "react";
 const Service = () => {
   return (
     <div class="flex justify-center ">
-      <div class="block rounded-lg shadow-sm shadow-stone-500 bg-black text-white text-center">
-        <div class="py-3 px-6 border-b border-gray-300">Featured</div>
-        <div class="p-6">
+      <div class="block rounded-lg shadow-sm shadow-stone-500  text-white text-center">
+        <div class="py-3 px-6 text-center ">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-16 w-16 mx-auto bg-pink-600 rounded-full w-24 h-24 p-3"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
+            />
+          </svg>
+        </div>
+        <div class="p-6 pt-12">
           <h5 class="text-white text-xl font-medium mb-2">
             Web Application Development
           </h5>
-          <p class="text-white text-base mb-4">
+          <p class="text-base mb-4">
             With supporting text below as a natural lead-in to additional
             content. With supporting text below as a natural lead-in to
             additional content. content. With supporting text below as a natural

@@ -6,16 +6,16 @@ const Navbar = ({ sendDataToParent }) => {
 
   let Links = [
     { name: "Home", link: "#header" },
+    { name: "About Me", link: "#about" },
     { name: "Experence", link: "#skill" },
-    { name: "Certificate", link: "#skill" },
     { name: "Projects", link: "#projects" },
-    { name: "Blog", link: "/blog" },
-    { name: "All Inventory", link: "/allinventory" },
+    { name: "Certificate", link: "#skill" },
+    { name: "Contact", link: "#contact" },
   ];
 
   return (
     <div
-      className="w-full sticky top-0 left-0 right-0 z-50 lg:py-0"
+      className="w-full sticky top-0 bg-black left-0 right-0 z-50 lg:py-0"
       id="sticky-div"
     >
       <div className="lg:flex items-center justify-between bg-none py-5 lg:px-10 px-7 lg:py-2">
@@ -33,7 +33,7 @@ const Navbar = ({ sendDataToParent }) => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-3 cursor-pointer lg:hidden text-white"
+          className="text-3xl absolute right-8 top-8 cursor-pointer lg:hidden text-white"
         >
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
