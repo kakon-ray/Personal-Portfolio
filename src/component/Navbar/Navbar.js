@@ -7,6 +7,7 @@ const Navbar = ({ sendDataToParent }) => {
   let Links = [
     { name: "Home", link: "#header" },
     { name: "About Me", link: "#about" },
+    { name: "Services", link: "#services" },
     { name: "Experence", link: "#skill" },
     { name: "Projects", link: "#projects" },
     { name: "Certificate", link: "#skill" },

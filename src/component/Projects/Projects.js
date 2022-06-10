@@ -6,6 +6,7 @@ import portfolio1 from "../../image/profolio1.png";
 import portfolio2 from "../../image/portfolio2.png";
 import portfolio3 from "../../image/portfolio-3.png";
 import portfolio4 from "../../image/portfolio4.png";
+import Slide from "react-reveal/Slide";
 const Projects = () => {
   return (
     <div className="bg-black text-white py-8 " id="projects">
@@ -15,12 +16,66 @@ const Projects = () => {
         </h2>
 
         <div class="grid lg:grid-cols-3 gap-6">
-          <ProjectItem img={portfolio1} title="Engineering Workshop" />
-          <ProjectItem img={portfolio2} title="And Shop" />
-          <ProjectItem img={portfolio3} title="Digital Hospital" />
-          <ProjectItem img={portfolio4} title="Logika Warehosuse" />
-          <ProjectItem img={portfolio2} title="And Shop" />
-          <ProjectItem img={portfolio3} title="Digital Hospital" />
+          <Slide bottom>
+            <ProjectItem
+              img={portfolio1}
+              title="Engineering Workshop"
+              live=""
+              server=""
+              client=""
+              details=""
+            />
+          </Slide>
+          <Slide bottom>
+            <ProjectItem
+              img={portfolio2}
+              title="And Shop"
+              live=""
+              server=""
+              client=""
+              details=""
+            />
+          </Slide>
+          <Slide bottom>
+            <ProjectItem
+              img={portfolio3}
+              title="Digital Hospital"
+              live=""
+              server=""
+              client=""
+              details=""
+            />
+          </Slide>
+          <Slide bottom>
+            <ProjectItem
+              img={portfolio4}
+              title="Logika Warehosuse"
+              live=""
+              server=""
+              client=""
+              details=""
+            />
+          </Slide>
+          <Slide bottom>
+            <ProjectItem
+              img={portfolio2}
+              title="And Shop"
+              live=""
+              server=""
+              client=""
+              details=""
+            />
+          </Slide>
+          <Slide bottom>
+            <ProjectItem
+              img={portfolio3}
+              title="Digital Hospital"
+              live=""
+              server=""
+              client=""
+              details=""
+            />
+          </Slide>
         </div>
       </section>
     </div>

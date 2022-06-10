@@ -4,6 +4,7 @@ import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./Header.css";
+import Fade from "react-reveal/Fade";
 
 const Header = () => {
   const particlesInit = async (main) => {
@@ -104,25 +105,27 @@ const Header = () => {
           detectRetina: true,
         }}
       ></Particles>
-      <div className="absolute top-40 mx-12 pt-8">
-        <h3 className="text-white text-3xl">Welcome To My Site</h3>
-        <h1 className="text-3xl lg:text-5xl text-white py-8">
-          Hello! I'm Kakon Ray <br></br> An Full Stack Developer.
-        </h1>
-        <p className="text-white text-xl">
-          As a Web developer, I always have enthusiasm and hunger for learning
-          new technologies.<br></br> I am always ready to deliver my full
-          potential to the company I am committed.
-        </p>
-        <a
-          href="https://drive.google.com/file/d/10jyXsgBskZWE4BmKVpPLl1nlzbSlcLmn/view?usp=sharing"
-          className="inline-block shadow-lg px-6 py-3 mt-16 bg-stone-700 text-white  text-lg leading-tight font-bold rounded-full  hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
-          target="_blank"
-        >
-          {" "}
-          Download Resume
-        </a>
-      </div>
+      <Fade left>
+        <div className="absolute top-40 mx-12 pt-16">
+          <h3 className="text-white text-3xl">Welcome To My Site</h3>
+          <h1 className="text-3xl lg:text-5xl text-white py-8">
+            Hello! I'm Kakon Ray <br></br> An Full Stack Developer.
+          </h1>
+          <p className="text-white text-xl">
+            As a Web developer, I always have enthusiasm and hunger for learning
+            new technologies.<br></br> I am always ready to deliver my full
+            potential to the company I am committed.
+          </p>
+          <a
+            href="https://drive.google.com/file/d/10jyXsgBskZWE4BmKVpPLl1nlzbSlcLmn/view?usp=sharing"
+            className="inline-block shadow-lg px-6 py-3 mt-16 bg-stone-700 text-white  text-lg leading-tight font-bold rounded-full  hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
+            target="_blank"
+          >
+            {" "}
+            Download Resume
+          </a>
+        </div>
+      </Fade>
     </div>
   );
 };
