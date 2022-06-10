@@ -5,23 +5,26 @@ import Fade from "react-reveal/Fade";
 const AboutMe = () => {
   return (
     <div className="bg-black">
-      <section class=" text-gray-800 text-center md:text-left mx-12" id="about">
-        <div class="block rounded-lg shadow-lg">
+      <section
+        class=" text-gray-800 text-center md:text-left mx-4 lg:mx-12 border-none"
+        id="about"
+      >
+        <div class="block rounded-lg">
           <div class="flex flex-wrap items-center">
             <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
               <Fade left>
-                <div class="pr-6 py-12 md:pr-12">
+                <div class="pr-6 my-12 md:pr-12">
                   <h2 class="text-4xl text-white font-bold mb-3 pb-2 uppercase">
                     About Me
                   </h2>
-                  <p class="text-white mb-2 text-lg">
+                  <p class="text-white mb-2 text-sm">
                     Hi! I am Kakon, As a Web developer, I always have enthusiasm
                     and hunger for learning new technologies. I am always ready
                     to deliver my full potential to the company I am
                     committed.Code will be easy to understand, Reusable
                     components, Proper Comments
                   </p>
-                  <p class="text-white mb-6 pb-2 text-lg">
+                  <p class="text-white mb-6 pb-2 text-sm">
                     Technologies Used in web application:
                   </p>
                   <div class="flex flex-wrap mb-6 text-white">
@@ -51,12 +54,12 @@ const AboutMe = () => {
               </Fade>
             </div>
 
-            <div class="grow-0 shrink-0 basis-auto block lg:flex w-full lg:w-6/12 xl:w-4/12">
+            <div class="grow-0 shrink-0 basis-auto block mt-12 lg:mt-0 lg:flex w-full lg:w-6/12 xl:w-4/12">
               <Fade right>
                 <img
                   src={mypicture}
                   alt="Trendy Pants and Shoes"
-                  class="w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
+                  class="w-full rounded-lg"
                 />
               </Fade>
             </div>

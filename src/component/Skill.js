@@ -4,7 +4,7 @@ import Pulse from "react-reveal/Pulse";
 const Skill = () => {
   return (
     <div className=" py-12 bg-black" id="skill">
-      <div className="grid grid-cols1 md:grid-cols-2 content-center mx-12 text-white">
+      <div className="grid grid-cols1 md:grid-cols-2 content-center mx-4 lg:mx-12 text-white">
         <div>
           <h3 class="text-4xl text-pink-600-700 font-bold mb-6 ml-24 py-8 uppercase">
             Certificate

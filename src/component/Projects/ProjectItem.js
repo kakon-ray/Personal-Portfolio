@@ -20,12 +20,15 @@ const ProjectItem = ({ img, title, live, server, client, details }) => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.3)" }}
           >
             <div class="overlay flex flex-col justify-center items-center">
-              <h5 class="text-3xl text-center font-bold text-white m-6">
+              <h5 class="text-3xl text-center font-bold text-white my-2">
                 {title}
               </h5>
-              <p class="text-lg text-center font-bold text-pink-600 my-2 underline">
-                See More
-              </p>
+              <button
+                type="button"
+                class="inline-block px-6 my-2 py-2 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+              >
+                Details
+              </button>
             </div>
           </div>
           <div class="hover-overlay">

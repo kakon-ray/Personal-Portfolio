@@ -106,19 +106,19 @@ const Header = () => {
         }}
       ></Particles>
       <Fade left>
-        <div className="absolute top-40 mx-12 pt-16">
+        <div className="absolute top-40 mx-4 lg:mx-12 pt-16">
           <h3 className="text-white text-3xl">Welcome To My Site</h3>
           <h1 className="text-3xl lg:text-5xl text-white py-8">
             Hello! I'm Kakon Ray <br></br> An Full Stack Developer.
           </h1>
-          <p className="text-white text-xl">
+          <p className="text-white text-sm">
             As a Web developer, I always have enthusiasm and hunger for learning
             new technologies.<br></br> I am always ready to deliver my full
             potential to the company I am committed.
           </p>
           <a
             href="https://drive.google.com/file/d/10jyXsgBskZWE4BmKVpPLl1nlzbSlcLmn/view?usp=sharing"
-            className="inline-block shadow-lg px-6 py-3 mt-16 bg-stone-700 text-white  text-lg leading-tight font-bold rounded-full  hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="inline-block shadow-lg px-6 py-3 mt-16 bg-stone-700 text-white  text-sm leading-tight font-bold rounded-full  hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
             target="_blank"
           >
             {" "}

@@ -10,12 +10,12 @@ import Slide from "react-reveal/Slide";
 const Projects = () => {
   return (
     <div className="bg-black text-white py-8 " id="projects">
-      <section class=" text-gray-800 mx-12 ">
+      <section class=" text-gray-800 mx-4 lg:mx-12 ">
         <h2 class="text-3xl font-bold mb-12 text-center text-white">
           My awesome <u class="text-pink-600 "> Projects</u>
         </h2>
 
-        <div class="grid lg:grid-cols-3 gap-6">
+        <div class="grid lg:grid-cols-3 gap-8">
           <Slide bottom>
             <ProjectItem
               img={portfolio1}

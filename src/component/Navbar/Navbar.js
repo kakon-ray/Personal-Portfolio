@@ -48,11 +48,11 @@ const Navbar = ({ sendDataToParent }) => {
             {Links.map((link) => (
               <li
                 key={link.name}
-                className="md:mr-5 xl:mr-12 lg:mr-8 text-lg text-white md:my-3 my-7"
+                className="md:mr-5 xl:mr-12 lg:mr-8 text-sm text-white md:my-3 my-7"
               >
                 <a
                   href={link.link}
-                  className="text-pink-600-500 hover:text-pink-700 duration-500 font-bold"
+                  className="hover:text-pink-600 text-sm hover:text-pink-700 duration-500 font-bold"
                 >
                   {link.name}
                 </a>
