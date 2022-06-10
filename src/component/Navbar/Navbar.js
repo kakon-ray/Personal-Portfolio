@@ -5,7 +5,7 @@ const Navbar = ({ sendDataToParent }) => {
   let [open, setOpen] = useState(false);
 
   let Links = [
-    { name: "Home", link: "#header" },
+    { name: "Home", link: "/" },
     { name: "About Me", link: "#about" },
     { name: "Services", link: "#services" },
     { name: "Experence", link: "#skill" },

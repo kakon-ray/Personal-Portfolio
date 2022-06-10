@@ -8,7 +8,6 @@ import Skill from "../component/Skill/Skill";
 const Home = () => {
   return (
     <>
-      <Navbar></Navbar>
       <Header />
       <AboutMe />
       <Services />
