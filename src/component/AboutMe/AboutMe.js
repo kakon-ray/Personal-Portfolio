@@ -58,6 +58,7 @@ const AboutMe = () => {
               <Fade right>
                 <img
                   src={mypicture}
+                  style={{ borderRadius: "5px" }}
                   alt="Trendy Pants and Shoes"
                   class="w-full rounded-lg"
                 />
