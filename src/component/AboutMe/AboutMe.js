@@ -13,18 +13,18 @@ const AboutMe = () => {
           <div class="flex flex-wrap items-center">
             <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
               <Fade left>
-                <div class="pr-6 my-12 md:pr-12">
-                  <h2 class="text-4xl text-white font-bold mb-3 pb-2 uppercase">
+                <div class="pr-6 md:pr-24">
+                  <h2 class="text-4xl pt-8 text-white font-bold mb-3 pb-2 uppercase">
                     About Me
                   </h2>
-                  <p class="text-white mb-2 text-sm">
+                  <p class="text-white mb-1 text-sm">
                     Hi! I am Kakon, As a Web developer, I always have enthusiasm
                     and hunger for learning new technologies. I am always ready
                     to deliver my full potential to the company I am
                     committed.Code will be easy to understand, Reusable
                     components, Proper Comments
                   </p>
-                  <p class="text-white mb-6 pb-2 text-sm">
+                  <p class="text-white mb-2 pb-2 text-sm">
                     Technologies Used in web application:
                   </p>
                   <div class="flex flex-wrap mb-6 text-white">
@@ -46,9 +46,9 @@ const AboutMe = () => {
                   </div>
                   <button
                     type="button"
-                    class="inline-block px-7 py-3 bg-gray-800 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
+                    class="inline-block px-7 py-2 bg-gray-800 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-gray-900 hover:shadow-lg focus:bg-gray-900 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-gray-900 active:shadow-lg transition duration-150 ease-in-out"
                   >
-                    Buy now
+                    View Github
                   </button>
                 </div>
               </Fade>

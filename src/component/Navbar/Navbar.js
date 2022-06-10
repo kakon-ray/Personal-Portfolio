@@ -48,7 +48,7 @@ const Navbar = ({ sendDataToParent }) => {
             {Links.map((link) => (
               <li
                 key={link.name}
-                className="md:mr-5 xl:mr-12 lg:mr-8 text-sm text-white md:my-3 my-7"
+                className="md:mr-4 xl:mr-12 lg:mr-6 text-sm text-white md:my-3 my-7"
               >
                 <a
                   href={link.link}

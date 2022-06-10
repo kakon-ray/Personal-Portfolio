@@ -7,7 +7,7 @@ const Skill = () => {
     <div className=" py-12 bg-black" id="skill">
       <div className="grid grid-cols1 md:grid-cols-2 content-center mx-4 lg:mx-12 text-white">
         <div>
-          <h3 class="text-4xl text-pink-600-700 font-bold mb-6 lg:ml-24 py-8 uppercase">
+          <h3 class="text-4xl text-pink-600-700 text-center font-bold mb-6 lg:ml-24 py-8 uppercase">
             Certificate
           </h3>
 
@@ -50,7 +50,7 @@ const Skill = () => {
           </div>
         </div>
         <div>
-          <h3 class="text-4xl text-pink-600-700 font-bold mb-6 lg:ml-24 py-8 uppercase">
+          <h3 class="text-4xl text-pink-600-700 font-bold mb-6 text-center lg:ml-24 py-8 uppercase">
             Experience
           </h3>
 
