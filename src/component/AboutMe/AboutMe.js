@@ -13,7 +13,7 @@ const AboutMe = () => {
           <div class="flex flex-wrap items-center">
             <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
               <Fade left>
-                <div class="pr-6 md:pr-24">
+                <div class="pr-16">
                   <h2 class="text-4xl pt-8 text-white font-bold mb-3 pb-2 uppercase">
                     About Me
                   </h2>

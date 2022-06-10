@@ -12,3 +12,23 @@ html {
 .bg-black {
   background-color: #000000 !important;
 }
+
+::-webkit-scrollbar {
+  background-color: #db2777;
+  width: 14px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #db2777;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #bc135f;
+}
