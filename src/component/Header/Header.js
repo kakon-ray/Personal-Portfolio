@@ -106,7 +106,7 @@ const Header = () => {
         }}
       ></Particles>
       <Fade left>
-        <div className="absolute top-40 mx-4 lg:mx-12 pt-16">
+        <div className="absolute top-40 mx-4 lg:mx-12 pt-10">
           <h3 className="text-white text-3xl text-yellow-400">
             Welcome To My Site
           </h3>
