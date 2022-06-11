@@ -6,9 +6,6 @@ html {
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-}
-
 .bg-black {
   background-color: #000000 !important;
 }

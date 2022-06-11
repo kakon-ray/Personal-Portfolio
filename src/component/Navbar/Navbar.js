@@ -24,7 +24,7 @@ const Navbar = ({ sendDataToParent }) => {
           className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
       text-white"
         >
-          <span className="xl:text-4xl py-4 md:text-xl text-white flex items-center">
+          <span className="xl:text-4xl py-2 md:text-xl text-white flex items-center">
             {/* <Link to="/" className="text-pink-600 flex items-center"> */}
             <ion-icon name="logo-ionic" className="text-white"></ion-icon>
             KAKON RAY
