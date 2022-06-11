@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from "react";
 import { Link, Router } from "react-router-dom";
 import "./Navbar.css";
@@ -15,65 +16,74 @@ const Navbar = ({ sendDataToParent }) => {
   ];
 
   return (
-    <div
-      className="w-full  top-0 bg-black left-0 right-0 z-50 lg:py-0"
-      id="sticky-div"
-    >
-      <div className="lg:flex items-center justify-between bg-none py-5 lg:px-10 px-7 lg:py-2">
-        <div
-          className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
-      text-white"
+    <nav class=" w-full flex flex-wrap sticky top-0 z-50 items-center justify-between py-2 bg-black text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6 lg:mx-8">
+        <button
+          class="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent1"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <span className="xl:text-4xl py-2 md:text-xl text-white flex items-center">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="bars"
+            class="w-6"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+            ></path>
+          </svg>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow items-center"
+          id="navbarSupportedContent1"
+        >
+          <span className="xl:text-3xl py-2 md:text-xl text-white flex items-center">
             {/* <Link to="/" className="text-pink-600 flex items-center"> */}
             <ion-icon name="logo-ionic" className="text-white"></ion-icon>
             KAKON RAY
             {/* </Link> */}
           </span>
-        </div>
 
-        <div
-          onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-7 cursor-pointer lg:hidden text-white"
-        >
-          <ion-icon name={open ? "close" : "menu"}></ion-icon>
-        </div>
-
-        <div
-          className={`absolute lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto transition duration-5000 ease-in ${
-            open ? "" : "top-[-490px]"
-          } lg:shadow-none`}
-        >
-          <ul className="lg:flex lg:items-center  lg:py-0 md:py-4 sm:py-4 pl-8">
-            {Links.map((link) => (
-              <li
-                key={link.name}
-                className="md:mr-4 xl:mr-12 lg:mr-6 text-sm text-white md:my-3 my-7"
-              >
-                <a
-                  href={link.link}
-                  className="hover:text-pink-600 text-sm hover:text-pink-700 duration-500 font-bold"
-                >
-                  {link.name}
-                </a>
-              </li>
-            ))}
-
-            <div
-              className={`form-check form-switch pl-0 xl:mx-6 md:my-6 sm:my-6 lg:my-0 xl:mb-0`}
-            >
-              <input
-                className="form-check-input appearance-none w-9 rounded-full  h-5 align-top bg-stone-600 bg-no-repeat checked:bg-pink-600 bg-pink-600-300 focus:outline-none cursor-pointer shadow-sm"
-                type="checkbox"
-                // onChange={(e) => sendDataToParent(e.target.checked)}
-                role="switch"
-                id="flexSwitchCheckChecked"
-              />
-            </div>
+          <ul class="navbar-nav flex flex-col pl-0 list-style-none lg:ml-12 mr-auto">
+            {Links.map((item) => {
+              return (
+                <li class="nav-item p-2">
+                  <a
+                    class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+                    href={item.link}
+                  >
+                    {item.name}
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </div>
+        <div class="flex items-center relative ml-2 lg:ml-0 pb-2">
+          <div
+            className={`form-check form-switch pl-0 xl:mx-6 md:my-6 sm:my-6 lg:my-0 xl:mb-0`}
+          >
+            <input
+              className="form-check-input appearance-none w-9 rounded-full  h-5 align-top bg-stone-600 bg-no-repeat checked:bg-pink-600 bg-pink-600-300 focus:outline-none cursor-pointer shadow-sm"
+              type="checkbox"
+              // onChange={(e) => sendDataToParent(e.target.checked)}
+              role="switch"
+              id="flexSwitchCheckChecked"
+            />
+          </div>
+        </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
