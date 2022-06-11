@@ -27,22 +27,11 @@ const AboutMe = () => {
                   <p class="text-white mb-2 pb-2 text-sm">
                     Technologies Used in web application:
                   </p>
-                  <div class="flex flex-wrap mb-6 text-white">
-                    <SkillIcon title="JavaScript"></SkillIcon>
-                    <SkillIcon title="React.js"></SkillIcon>
-                    <SkillIcon title="Redux/Context API"></SkillIcon>
-
-                    <SkillIcon title="CSS3"></SkillIcon>
-                    <SkillIcon title="SCSS"></SkillIcon>
-                    <SkillIcon title="HTML5"></SkillIcon>
-                    <SkillIcon title="Tailwind"></SkillIcon>
-                    <SkillIcon title="React-Bootstrap"></SkillIcon>
-                    <SkillIcon title="Firebase Auth"></SkillIcon>
-                    <SkillIcon title="Git"></SkillIcon>
-                    <SkillIcon title="GitHub"></SkillIcon>
-                    <SkillIcon title="Node.js"></SkillIcon>
-                    <SkillIcon title="Express.js"></SkillIcon>
-                    <SkillIcon title="Mongodb"></SkillIcon>
+                  <div class="flex flex-wrap gap-3 mb-6 text-white">
+                    <SkillIcon title="Full Stack Developer"></SkillIcon>
+                    <SkillIcon title="React.js Experts"></SkillIcon>
+                    <SkillIcon title="Frontend Developer"></SkillIcon>
+                    <SkillIcon title="Backend Developer (Node.js, Express.js, MongoDB)"></SkillIcon>
                   </div>
                   <button
                     type="button"
