@@ -10,7 +10,7 @@ const Contact = () => {
             <div class="mt-12 lg:mt-0">
               <h1 class="text-5xl text-gray-200 font-bold tracking-tight leading-tight mb-12">
                 The best offer <br />
-                <span class="text-pink-600">for your business</span>
+                <span class="text-yellow-400">for your business</span>
               </h1>
               <p class="text-gray-200">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -107,9 +107,12 @@ const Header = () => {
       ></Particles>
       <Fade left>
         <div className="absolute top-40 mx-4 lg:mx-12 pt-16">
-          <h3 className="text-white text-3xl">Welcome To My Site</h3>
+          <h3 className="text-white text-3xl text-yellow-400">
+            Welcome To My Site
+          </h3>
           <h1 className="text-3xl lg:text-5xl text-white py-8">
-            Hello! I'm Kakon Ray <br></br> An Full Stack Developer.
+            Hi There, <span>I'm Kakon Ray</span> <br></br> An Full Stack
+            Developer.
           </h1>
           <p className="text-white text-sm">
             As a Web developer, I always have enthusiasm and hunger for learning
