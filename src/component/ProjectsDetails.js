@@ -16,7 +16,7 @@ const ProjectsDetails = () => {
     <div className="bg-black">
       <section class="overflow-hidden py-12 text-gray-700 mx-4 lg:mx-12">
         <div class="container px-5 py-2 mx-auto">
-          <h1 className="text-white text-6xl pb-16 lg-ml-8">
+          <h1 className="text-white text-5xl uppercase pb-16 lg-ml-8">
             {projectDetails[0].name}
           </h1>
           <div class="grid grid-cols-1 lg:grid-cols-2">

@@ -47,12 +47,14 @@ const Navbar = ({ sendDataToParent }) => {
           class="collapse navbar-collapse flex-grow items-center"
           id="navbarSupportedContent1"
         >
-          <span className="xl:text-3xl py-2 md:text-xl text-white flex items-center">
-            {/* <Link to="/" className="text-pink-600 flex items-center"> */}
-            <ion-icon name="logo-ionic" className="text-white"></ion-icon>
-            KAKON RAY
-            {/* </Link> */}
-          </span>
+          <Link to="/">
+            <span className="xl:text-3xl py-2 md:text-xl text-white flex items-center">
+              {/* <Link to="/" className="text-pink-600 flex items-center"> */}
+              <ion-icon name="logo-ionic" className="text-white"></ion-icon>
+              KAKON RAY
+              {/* </Link> */}
+            </span>
+          </Link>
 
           <ul class="navbar-nav flex flex-col pl-0 list-style-none lg:ml-12 mr-auto">
             {Links.map((item) => {
