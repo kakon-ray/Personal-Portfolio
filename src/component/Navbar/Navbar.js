@@ -34,14 +34,14 @@ const Navbar = ({ sendDataToParent }) => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="text-3xl absolute right-8 top-8 cursor-pointer lg:hidden text-white"
+          className="text-3xl absolute right-8 top-7 cursor-pointer lg:hidden text-white"
         >
           <ion-icon name={open ? "close" : "menu"}></ion-icon>
         </div>
 
         <div
-          className={`absolute lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto transition-all duration-500 ease-in ${
-            open ? "md:top-12 sm:top-9 shadow-md " : "top-[-490px]"
+          className={`absolute lg:static bg-black lg:z-auto z-[-1] left-0 w-full lg:w-auto transition duration-5000 ease-in ${
+            open ? "" : "top-[-490px]"
           } lg:shadow-none`}
         >
           <ul className="lg:flex lg:items-center  lg:py-0 md:py-4 sm:py-4 pl-8">
