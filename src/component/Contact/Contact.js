@@ -2,9 +2,18 @@ import React from "react";
 import Slide from "react-reveal/Slide";
 import Zoom from "react-reveal/Zoom";
 const Contact = () => {
+  var sectionStyle = {
+    width: "100%",
+    backgroundAttachment: "fixed",
+    backgroundImage: `url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80")`,
+  };
   return (
-    <section class=" text-gray-800 text-center lg:text-left" id="contact">
-      <div class="px-6 py-12 md:px-12 bg-black pt-24">
+    <section
+      class=" text-gray-800 text-center lg:text-left"
+      id="contact"
+      style={sectionStyle}
+    >
+      <div class="px-6 py-12 md:px-12  pt-24 bg-black-background ">
         <div class="grid lg:grid-cols-2 gap-12  items-center">
           <Slide left>
             <div class="mt-12 lg:mt-0">

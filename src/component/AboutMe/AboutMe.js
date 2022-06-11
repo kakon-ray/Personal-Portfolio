@@ -2,14 +2,20 @@ import React from "react";
 import mypicture from "../../image/mypicture.jpg";
 import SkillIcon from "./SkillIcon";
 import Fade from "react-reveal/Fade";
+import Background from "../../image/portfolio-3.png";
 const AboutMe = () => {
+  var sectionStyle = {
+    width: "100%",
+    backgroundAttachment: "fixed",
+    backgroundImage: `url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80")`,
+  };
   return (
-    <div className="bg-black">
+    <div style={sectionStyle}>
       <section
-        class=" text-gray-800 text-center md:text-left mx-4 lg:mx-12 border-none"
+        class=" text-center md:text-left bg-black-background text-white bg-opacity-90  border-none"
         id="about"
       >
-        <div class="block rounded-lg">
+        <div class="block rounded-lg mx-4 lg:mx-12">
           <div class="flex flex-wrap items-center">
             <div class="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
               <Fade left>
@@ -17,7 +23,7 @@ const AboutMe = () => {
                   <h2 class="text-4xl pt-8 text-yellow-400 font-bold mb-3 pb-2 uppercase">
                     About Me
                   </h2>
-                  <p class="text-white mb-1 text-sm pr-24">
+                  <p class=" mb-1 text-sm pr-24">
                     Hi! I am Kakon, As a Web developer, I always have enthusiasm
                     and hunger for learning new technologies. I am always ready
                     to deliver my full potential to the company I am
@@ -27,7 +33,7 @@ const AboutMe = () => {
                   <p class="text-white mb-2 pb-2 text-sm">
                     Technologies Used in web application:
                   </p>
-                  <div class="flex flex-wrap gap-3 mb-6 text-white">
+                  <div class="flex flex-wrap gap-3 mb-6 ">
                     <SkillIcon title="Full Stack Developer"></SkillIcon>
                     <SkillIcon title="React.js Experts"></SkillIcon>
                     <SkillIcon title="Frontend Developer"></SkillIcon>

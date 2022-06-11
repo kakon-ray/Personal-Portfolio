@@ -11,10 +11,10 @@ const Home = () => {
     <>
       <Header />
       <AboutMe />
-      <Services />
-      <Skill />
       <Projects />
+      <Skill />
       <TechnologySkill />
+      <Services />
       <Contact />
     </>
   );

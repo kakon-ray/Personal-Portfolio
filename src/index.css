@@ -9,6 +9,9 @@ html {
 .bg-black {
   background-color: #000000 !important;
 }
+.bg-black-background {
+  background-color: #000000eb !important;
+}
 
 ::-webkit-scrollbar {
   background-color: #db2777;

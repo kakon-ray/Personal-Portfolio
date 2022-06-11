@@ -16,7 +16,7 @@ const Navbar = ({ sendDataToParent }) => {
 
   return (
     <div
-      className="w-full sticky top-0 bg-black left-0 right-0 z-50 lg:py-0"
+      className="w-full  top-0 bg-black left-0 right-0 z-50 lg:py-0"
       id="sticky-div"
     >
       <div className="lg:flex items-center justify-between bg-none py-5 lg:px-10 px-7 lg:py-2">
