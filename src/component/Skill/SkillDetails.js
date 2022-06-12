@@ -31,20 +31,6 @@ const SkillDetails = ({ title, education, detials }) => {
             </p>
           </div>
           <p class="text-pink-600-700 mb-6">{detials}</p>
-          <button
-            type="button"
-            class="inline-block px-4 py-1.5 bg-pink-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-600-700 hover:shadow-lg focus:bg-pink-600-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-600-800 active:shadow-lg transition duration-150 ease-in-out"
-            data-mdb-ripple="true"
-          >
-            View
-          </button>
-          <button
-            type="button"
-            class="inline-block px-3.5 mx-2 py-1 border-2 border-pink-600 text-pink-600 font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-            data-mdb-ripple="true"
-          >
-            See demo
-          </button>
         </div>
       </Pulse>
     </div>

@@ -19,7 +19,7 @@ const TechnologySkill = () => {
             </h1>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "80%" }}
               >
                 {" "}
@@ -28,7 +28,7 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2  font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1  font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "90%" }}
               >
                 {" "}
@@ -37,7 +37,7 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "70%" }}
               >
                 {" "}
@@ -46,7 +46,16 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "50%" }}
+              >
+                {" "}
+                React-Query
+              </div>
+            </div>
+            <div class="w-full bg-gray-200 ">
+              <div
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "95%" }}
               >
                 {" "}
@@ -55,7 +64,7 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "95%" }}
               >
                 {" "}
@@ -64,16 +73,16 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "80%" }}
               >
                 {" "}
-                Tailwind
+                Tailwind CSS
               </div>
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "98%" }}
               >
                 {" "}
@@ -82,7 +91,7 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "60%" }}
               >
                 {" "}
@@ -91,11 +100,11 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "90%" }}
               >
                 {" "}
-                Firebase Auth
+                Firebase Authentication / JWT Token
               </div>
             </div>
           </div>
@@ -106,7 +115,7 @@ const TechnologySkill = () => {
 
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "40%" }}
               >
                 {" "}
@@ -115,7 +124,7 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2  font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1  font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "40%" }}
               >
                 {" "}
@@ -124,7 +133,7 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "50%" }}
               >
                 {" "}
@@ -133,7 +142,7 @@ const TechnologySkill = () => {
             </div>
             <div class="w-full bg-gray-200 ">
               <div
-                class="bg-pink-600 text-sm py-2 font-medium text-blue-100 text-center p-0.5 leading-none "
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
                 style={{ width: "70%" }}
               >
                 {" "}

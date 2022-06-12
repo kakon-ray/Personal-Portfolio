@@ -65,8 +65,7 @@ const Skill = () => {
                 <li>
                   <SkillDetails
                     title="Front End Development"
-                    education=" JavaScript, React.js, HTML5, CSS3, React-Bootstrap,
-                          Tailwind CSS, Firebase, Firebase Auth,"
+                    education=" JavaScript, ES6,DOM, React.Js, Redux/Context API (if needed), React-query,   Axios, CSS3, HTML5, Bootstrap, Tailwind,SCSS, Responsive Design,  Firebase-Authentication, JWT Token"
                     detials="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Quisque scelerisque diam non nisi semper, et elementum
                         lorem ornare. Maecenas placerat facilisis mollis. Duis
@@ -88,7 +87,7 @@ const Skill = () => {
                   {" "}
                   <SkillDetails
                     title="Full Stack Development"
-                    education=" Responsive Design, Frontend development, Backend
+                    education="Responsive Design, Frontend development, Backend
                           development"
                     detials="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Quisque scelerisque diam non nisi semper, et elementum
