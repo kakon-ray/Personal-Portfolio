@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const TechnologySkill = () => {
   var sectionStyle = {
@@ -8,11 +9,11 @@ const TechnologySkill = () => {
   };
   return (
     <div className="bg-black-background" style={sectionStyle}>
-      <div className="bg-black-background py-12">
-        <h1 className="text-5xl text-white text-center pt-16 pb-8 uppercase">
-          My Skills
+      <div className="bg-black-background py-12 text-white">
+        <h1 className="text-4xl text-center pt-16 pb-8 uppercase">
+          My <span className="text-yellow-400">Skills</span>
         </h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mx-4 lg:mx-12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mx-4 lg:mx-12">
           <div className="flex flex-col gap-3 text-white">
             <h1 className="text-center text-3xl py-6">
               <span className="text-yellow-400">Frontend </span>Technology
@@ -147,6 +148,78 @@ const TechnologySkill = () => {
               >
                 {" "}
                 Deployment
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col gap-3 text-white">
+            <h1 className="text-center text-3xl py-6">
+              <span className="text-yellow-400">Tools </span>
+            </h1>
+
+            <div class="w-full bg-gray-200 ">
+              <div
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "80%" }}
+              >
+                {" "}
+                VS Code
+              </div>
+            </div>
+
+            <div class="w-full bg-gray-200 ">
+              {" "}
+              <div
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "70%" }}
+              >
+                {" "}
+                Chrome Dev Tool
+              </div>
+            </div>
+
+            <div class="w-full bg-gray-200 ">
+              <div
+                class="bg-pink-600 text-sm py-1  font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "40%" }}
+              >
+                {" "}
+                Package Managers (Git)
+              </div>
+            </div>
+            <div class="w-full bg-gray-200 ">
+              <div
+                class="bg-pink-600 text-sm py-1  font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "40%" }}
+              >
+                {" "}
+                GitHub
+              </div>
+            </div>
+            <div class="w-full bg-gray-200 ">
+              <div
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "50%" }}
+              >
+                {" "}
+                Firebase,
+              </div>
+            </div>
+            <div class="w-full bg-gray-200 ">
+              <div
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "80%" }}
+              >
+                {" "}
+                Netlify
+              </div>
+            </div>
+            <div class="w-full bg-gray-200 ">
+              <div
+                class="bg-pink-600 text-sm py-1 font-medium text-blue-100 text-center p-0.5 leading-none "
+                style={{ width: "80%" }}
+              >
+                {" "}
+                Heroku
               </div>
             </div>
           </div>

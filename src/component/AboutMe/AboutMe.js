@@ -23,7 +23,7 @@ const AboutMe = () => {
                   <h2 class="text-4xl pt-8 text-yellow-400 font-bold mb-3 pb-2 uppercase">
                     About Me
                   </h2>
-                  <p class=" mb-1 text-sm pr-24">
+                  <p class=" mb-1 text-sm ">
                     Hi! I am Kakon, As a Web developer, I always have enthusiasm
                     and hunger for learning new technologies. I am always ready
                     to deliver my full potential to the company I am
@@ -36,8 +36,8 @@ const AboutMe = () => {
                   <div class="flex flex-wrap gap-3 mb-6 ">
                     <SkillIcon title="Full Stack Developer"></SkillIcon>
                     <SkillIcon title="React.js Experts"></SkillIcon>
-                    <SkillIcon title="Frontend Developer"></SkillIcon>
-                    <SkillIcon title="Backend Developer (Node.js, Express.js, MongoDB)"></SkillIcon>
+                    <SkillIcon title="Frontend Experts"></SkillIcon>
+                    <SkillIcon title="Backend Developer"></SkillIcon>
                   </div>
                   <button
                     type="button"
