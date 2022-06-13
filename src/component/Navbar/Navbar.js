@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Link, Router } from "react-router-dom";
 import "./Navbar.css";
+import img from "../../image/str2.png";
 const Navbar = ({ sendDataToParent }) => {
   let [open, setOpen] = useState(false);
 
@@ -50,7 +51,7 @@ const Navbar = ({ sendDataToParent }) => {
           <Link to="/">
             <span className="xl:text-3xl py-2 font-bold md:text-xl text-yellow-500 dark:text-white flex items-center">
               {/* <Link to="/" className="text-pink-600 flex items-center"> */}
-              <ion-icon name="logo-ionic" className="text-white"></ion-icon>
+              <img src={img} className="w-10 h-10" alt="" />
               KAKON RAY
               {/* </Link> */}
             </span>

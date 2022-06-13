@@ -99,7 +99,7 @@ const Header = ({ dark }) => {
               },
             },
             size: {
-              value: { min: 5, max: 30 },
+              value: { min: 5, max: 23 },
             },
           },
           detectRetina: true,
