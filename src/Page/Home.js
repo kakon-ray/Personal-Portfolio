@@ -8,7 +8,7 @@ import Skill from "../component/Skill/Skill";
 import TechnologySkill from "../component/TechnologySkill";
 const Home = ({ dark }) => {
   return (
-    <>
+    <div>
       <Header dark={dark} />
       <AboutMe />
       <Projects />
@@ -16,7 +16,7 @@ const Home = ({ dark }) => {
       <TechnologySkill />
       <Services />
       <Contact />
-    </>
+    </div>
   );
 };
 

@@ -6,6 +6,7 @@ import Background from "../../image/portfolio-3.png";
 const AboutMe = () => {
   var sectionStyle = {
     width: "100%",
+    height: "100%",
     backgroundAttachment: "fixed",
     backgroundImage: `url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80")`,
   };

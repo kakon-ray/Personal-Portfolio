@@ -56,7 +56,7 @@ const Navbar = ({ sendDataToParent }) => {
             </span>
           </Link>
 
-          <ul class="navbar-nav flex flex-col pl-0 list-style-none lg:ml-12 mr-auto">
+          <ul class="navbar-nav flex flex-col items-center pl-0 list-style-none lg:ml-12 mr-auto">
             {Links.map((item) => {
               return (
                 <li class="nav-item p-2">
@@ -71,7 +71,7 @@ const Navbar = ({ sendDataToParent }) => {
             })}
           </ul>
         </div>
-        <div class="flex items-center relative ml-2 lg:ml-0 pb-2">
+        <div class="flex items-center relative ml-2 lg:ml-0">
           <div
             className={`form-check form-switch pl-0 xl:mx-6 md:my-6 sm:my-6 lg:my-0 xl:mb-0`}
           >

@@ -6,14 +6,15 @@ const Skill = () => {
   var sectionStyle = {
     width: "100%",
     backgroundAttachment: "fixed",
+    backgroundSize: "cover",
     backgroundImage: `url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80")`,
   };
   return (
     <div className="" id="skill" style={sectionStyle}>
-      <div className="bg-black-background">
+      <div className="dark:bg-black bg-white bg-opacity-95 py-24">
         <div className="grid grid-cols1 md:grid-cols-2 content-center text-white mx-4 lg:mx-12">
           <div>
-            <h3 class="text-4xl text-pink-600-700 text-center font-bold mb-6 lg:ml-24 py-8 uppercase">
+            <h3 class="text-4xl dark:text-yellow-400 text-pink-600 text-center font-bold mb-6 lg:ml-24 py-8 uppercase">
               Certificate
             </h3>
 
@@ -56,7 +57,7 @@ const Skill = () => {
             </div>
           </div>
           <div>
-            <h3 class="text-4xl text-pink-600-700 font-bold mb-6 text-center lg:ml-24 py-8 uppercase">
+            <h3 class="text-4xl dark:text-yellow-400 text-pink-600 font-bold mb-6 text-center lg:ml-24 py-8 uppercase">
               Experience
             </h3>
 

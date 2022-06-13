@@ -7,7 +7,7 @@ html {
 @tailwind utilities;
 
 .bg-black-background {
-  background-color: #000000eb !important;
+  background-color: #000000 !important;
 }
 
 ::-webkit-scrollbar {

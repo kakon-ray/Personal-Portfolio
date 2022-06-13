@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const ProjectItem = ({ img, title, live, server, client, details, id }) => {
   return (
-    <section className="shadow-md shadow-pink-600 pb-4 hover:shadow-white transition delay-150  rounded-top container  text-center">
+    <section className="shadow-md shadow-pink-600 pb-4 dark:hover:shadow-white hover:shadow-yellow-500 transition delay-150  rounded-top container  text-center">
       <div
         class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover project-item"
         style={{ backgroundPosition: "50%" }}
@@ -46,7 +46,9 @@ const ProjectItem = ({ img, title, live, server, client, details, id }) => {
         </Link>
       </div>
       <div>
-        <h1 className="text-2xl text-cener text-white pt-6">{title}</h1>
+        <h1 className="text-2xl text-cener dark:text-white text-gray-700 pt-6">
+          {title}
+        </h1>
       </div>
       <div className="flex justify-center py-5">
         <a

@@ -21,16 +21,16 @@ const SkillDetails = ({ title, education, detials }) => {
         </svg>
       </div>
       <Pulse>
-        <div class="block p-6 rounded-lg shadow-md border-t shadow-stone-500 bg-pink-600-100 max-w-lg ml-6 mb-10">
+        <div class="block p-6 rounded-lg shadow-md border-t shadow-stone-300 dark:shadow-stone-400 bg-pink-600-100 max-w-lg ml-6 mb-10">
           <div>
-            <h1 class="font-medium text-white hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
+            <h1 class="font-medium dark:text-white text-gray-700 hover:text-pink-600-700 focus:text-pink-600-800 duration-300 transition ease-in-out text-2xl">
               {title}
             </h1>
             <p class="font-medium text-pink-600 hover:text-pink-600-700 py-2 focus:text-pink-600-800 duration-300 transition ease-in-out text-sm">
               {education}
             </p>
           </div>
-          <p class="text-pink-600-700 mb-6">{detials}</p>
+          <p class="dark:text-white text-gray-700 mb-6">{detials}</p>
         </div>
       </Pulse>
     </div>

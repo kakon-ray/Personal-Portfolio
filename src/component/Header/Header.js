@@ -35,7 +35,7 @@ const Header = ({ dark }) => {
           fullScreen: { enable: false, zIndex: 0 },
           background: {
             color: {
-              value: `${dark ? "#000000" : "#fff"}`,
+              value: `${dark ? "#000000eb" : "#fff"}`,
             },
           },
           fpsLimit: 120,
@@ -149,7 +149,7 @@ const Header = ({ dark }) => {
                 type="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                class="inline-block p-3 bg-pink-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                class="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -168,7 +168,7 @@ const Header = ({ dark }) => {
                 type="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                class="inline-block p-3 bg-pink-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                class="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -191,7 +191,7 @@ const Header = ({ dark }) => {
                 type="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                class="inline-block p-3 bg-pink-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                class="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

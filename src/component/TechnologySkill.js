@@ -2,19 +2,14 @@ import React from "react";
 import { Fade } from "react-reveal";
 
 const TechnologySkill = () => {
-  var sectionStyle = {
-    width: "100%",
-    backgroundAttachment: "fixed",
-    backgroundImage: `url("https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80")`,
-  };
   return (
-    <div className="bg-black-background" style={sectionStyle}>
-      <div className="bg-black-background py-12 text-white">
-        <h1 className="text-4xl text-center pt-16 pb-8 uppercase">
+    <div>
+      <div className="dark:bg-black bg-white py-24 dark:text-white text-gray-700">
+        <h1 className="text-4xl text-center  pb-12 uppercase font-bold">
           My <span className="text-yellow-400">Skills</span>
         </h1>
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mx-4 lg:mx-12">
-          <div className="flex flex-col gap-3 text-white">
+          <div className="flex flex-col gap-3 dark:text-white text-gray-700">
             <h1 className="text-center text-3xl py-6">
               <span className="text-yellow-400">Frontend </span>Technology
             </h1>
@@ -109,7 +104,7 @@ const TechnologySkill = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-3 text-white">
+          <div className="flex flex-col gap-3 dark:text-white text-gray-700">
             <h1 className="text-center text-3xl py-6">
               <span className="text-yellow-400">Backend </span>Technology
             </h1>
