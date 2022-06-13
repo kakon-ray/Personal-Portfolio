@@ -120,9 +120,16 @@ const Header = () => {
             new technologies.<br></br> I am always ready to deliver my full
             potential to the company I am committed.
           </p>
+          <p className="text-white text-sm pr-10 lg:pr-0 pt-4">
+            Email: kakonray.cse@gmail.com
+          </p>
+          <p className="text-white text-sm pr-10 lg:pr-0">
+            Phone: +8801707500512
+          </p>
+
           <a
             href="https://drive.google.com/file/d/10jyXsgBskZWE4BmKVpPLl1nlzbSlcLmn/view?usp=sharing"
-            className="inline-block shadow-lg px-6 py-3 mt-16 bg-stone-700 text-white  text-sm leading-tight font-bold rounded-full  hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="inline-block shadow-lg px-6 py-3 mt-12 bg-stone-700 text-white  text-sm leading-tight font-bold rounded-full  hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
             target="_blank"
           >
             {" "}
@@ -131,7 +138,7 @@ const Header = () => {
         </div>
       </Fade>
       <Fade right>
-        <div className="flex justify-end absolute bottom-6 lg:bottom-80 right-1 lg:right-12 heder-social-icon">
+        <div className="flex justify-end absolute bottom-6 lg:bottom-24 right-1 lg:right-12 heder-social-icon">
           <div class="flex gap-8 flex-col ">
             <a
               href="https://www.linkedin.com/in/kakon-ray-487836201/"
