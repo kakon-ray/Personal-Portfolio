@@ -138,7 +138,7 @@ const Header = () => {
         </div>
       </Fade>
       <Fade right>
-        <div className="flex justify-end absolute bottom-6 lg:bottom-24 right-1 lg:right-12 heder-social-icon">
+        <div className="flex justify-end absolute bottom-6 lg:bottom-40 right-1 lg:right-12 heder-social-icon">
           <div class="flex gap-8 flex-col ">
             <a
               href="https://www.linkedin.com/in/kakon-ray-487836201/"
