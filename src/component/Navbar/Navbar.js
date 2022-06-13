@@ -74,7 +74,7 @@ const Navbar = ({ sendDataToParent }) => {
         </div>
         <div class="flex items-center relative ml-2 lg:ml-0">
           <div
-            className={`form-check form-switch pl-0 xl:mx-6 md:my-6 sm:my-6 lg:my-0 xl:mb-0`}
+            className={`form-check form-switch pl-0 md:my-6 sm:my-6 lg:my-0 xl:mb-0`}
           >
             <input
               className="form-check-input appearance-none w-9 rounded-full  h-5 align-top bg-stone-600 bg-no-repeat dark:checked:bg-yellow-500 checked:bg-pink-600 bg-pink-600 focus:outline-none cursor-pointer shadow-sm"
