@@ -6,10 +6,10 @@ import AboutMe from "../component/AboutMe/AboutMe";
 import Contact from "../component/Contact/Contact";
 import Skill from "../component/Skill/Skill";
 import TechnologySkill from "../component/TechnologySkill";
-const Home = () => {
+const Home = ({ dark }) => {
   return (
     <>
-      <Header />
+      <Header dark={dark} />
       <AboutMe />
       <Projects />
       <Skill />

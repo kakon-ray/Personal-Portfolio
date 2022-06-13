@@ -6,9 +6,6 @@ html {
 @tailwind components;
 @tailwind utilities;
 
-.bg-black {
-  background-color: #000000 !important;
-}
 .bg-black-background {
   background-color: #000000eb !important;
 }
@@ -31,4 +28,10 @@ html {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #bc135f;
+}
+
+@layer components {
+  .bg-black {
+    @apply bg-black-background opacity-90;
+  }
 }

@@ -16,10 +16,10 @@ const Navbar = ({ sendDataToParent }) => {
   ];
 
   return (
-    <nav class=" w-full flex flex-wrap sticky top-0 z-50 items-center justify-between py-2 bg-black text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+    <nav class=" w-full flex flex-wrap sticky top-0 z-50 items-center justify-between py-2 dark:bg-black bg-white text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
       <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6 lg:mx-8">
         <button
-          class="navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+          class="navbar-toggler dark:text-gray-200 text-gray-700  border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent1"
@@ -48,7 +48,7 @@ const Navbar = ({ sendDataToParent }) => {
           id="navbarSupportedContent1"
         >
           <Link to="/">
-            <span className="xl:text-3xl py-2 md:text-xl text-white flex items-center">
+            <span className="xl:text-3xl py-2 font-bold md:text-xl text-yellow-500 dark:text-white flex items-center">
               {/* <Link to="/" className="text-pink-600 flex items-center"> */}
               <ion-icon name="logo-ionic" className="text-white"></ion-icon>
               KAKON RAY
@@ -61,7 +61,7 @@ const Navbar = ({ sendDataToParent }) => {
               return (
                 <li class="nav-item p-2">
                   <a
-                    class="nav-link text-white opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+                    class="nav-link dark:text-white text-gray-800 uppercase font-bold opacity-60 hover:opacity-80 focus:opacity-80 p-0"
                     href={item.link}
                   >
                     {item.name}
@@ -76,9 +76,9 @@ const Navbar = ({ sendDataToParent }) => {
             className={`form-check form-switch pl-0 xl:mx-6 md:my-6 sm:my-6 lg:my-0 xl:mb-0`}
           >
             <input
-              className="form-check-input appearance-none w-9 rounded-full  h-5 align-top bg-stone-600 bg-no-repeat checked:bg-pink-600 bg-pink-600-300 focus:outline-none cursor-pointer shadow-sm"
+              className="form-check-input appearance-none w-9 rounded-full  h-5 align-top bg-stone-600 bg-no-repeat dark:checked:bg-yellow-500 checked:bg-pink-600 bg-pink-600 focus:outline-none cursor-pointer shadow-sm"
               type="checkbox"
-              // onChange={(e) => sendDataToParent(e.target.checked)}
+              onChange={(e) => sendDataToParent(e.target.checked)}
               role="switch"
               id="flexSwitchCheckChecked"
             />

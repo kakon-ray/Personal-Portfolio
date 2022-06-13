@@ -7,9 +7,9 @@ import { loadFull } from "tsparticles";
 import "./Header.css";
 import Fade from "react-reveal/Fade";
 
-const Header = () => {
+const Header = ({ dark }) => {
   const particlesInit = async (main) => {
-    console.log(main);
+    // console.log(main);
 
     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -18,7 +18,7 @@ const Header = () => {
   };
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // console.log(container);
   };
 
   return (
@@ -35,7 +35,7 @@ const Header = () => {
           fullScreen: { enable: false, zIndex: 0 },
           background: {
             color: {
-              value: `#000000`,
+              value: `${dark ? "#000000" : "#fff"}`,
             },
           },
           fpsLimit: 120,
@@ -64,10 +64,10 @@ const Header = () => {
           particles: {
             options: { fullscreen: { enable: false, zIndex: 0 } },
             color: {
-              value: "#ff136f",
+              value: `${dark ? "#fff" : "#ff136f"}`,
             },
             links: {
-              color: "#ff136f",
+              color: `${dark ? "#fff" : "#ff136f"}`,
               distance: 150,
               enable: true,
               opacity: 0.5,
@@ -108,28 +108,28 @@ const Header = () => {
       ></Particles>
       <Fade left>
         <div className="absolute top-40 mx-4 lg:mx-16 pt-10">
-          <h3 className="text-white text-3xl text-yellow-400">
+          <h3 className="text-3xl font-bold text-yellow-400 uppercase">
             Welcome To My Site
           </h3>
-          <h1 className="text-3xl lg:text-5xl text-white py-8">
+          <h1 className="text-3xl lg:text-5xl dark:text-white text-gray-700 py-8">
             Hi There, <span>I'm Kakon Ray</span> <br></br> An Full Stack
             Developer.
           </h1>
-          <p className="text-white text-sm pr-10 lg:pr-0">
+          <p className="dark:text-white text-gray-700 text-sm pr-10 lg:pr-0">
             As a Web developer, I always have enthusiasm and hunger for learning
             new technologies.<br></br> I am always ready to deliver my full
             potential to the company I am committed.
           </p>
-          <p className="text-white text-sm pr-10 lg:pr-0 pt-4">
+          <p className="dark:text-white text-gray-700 text-sm pr-10 lg:pr-0 pt-4">
             Email: kakonray.cse@gmail.com
           </p>
-          <p className="text-white text-sm pr-10 lg:pr-0">
+          <p className="dark:text-white text-gray-700 text-sm pr-10 lg:pr-0">
             Phone: +8801707500512
           </p>
 
           <a
             href="https://drive.google.com/file/d/10jyXsgBskZWE4BmKVpPLl1nlzbSlcLmn/view?usp=sharing"
-            className="inline-block shadow-lg px-6 py-3 mt-12 bg-stone-700 text-white  text-sm leading-tight font-bold rounded-full  hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="inline-block shadow-lg px-6 py-3 mt-12 dark:bg-stone-700 bg-pink-600  text-white  text-sm leading-tight font-bold rounded-full  hover:bg-pink-700 dark:hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
             target="_blank"
           >
             {" "}

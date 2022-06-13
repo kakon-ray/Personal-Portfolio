@@ -12,7 +12,7 @@ const AboutMe = () => {
   return (
     <div style={sectionStyle}>
       <section
-        class=" text-center md:text-left bg-black-background text-white bg-opacity-90  border-none"
+        class=" text-center md:text-left dark:bg-black bg-white  dark:text-white text-gray-700 bg-opacity-95  border-none"
         id="about"
       >
         <div class="block rounded-lg mx-4 lg:mx-12">
