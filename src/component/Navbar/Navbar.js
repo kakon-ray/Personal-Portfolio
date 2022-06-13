@@ -16,7 +16,7 @@ const Navbar = ({ sendDataToParent }) => {
   ];
 
   return (
-    <nav class=" w-full flex flex-wrap sticky top-0 z-50 items-center justify-between py-2 dark:bg-black bg-white text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+    <nav class=" w-full flex flex-wrap sticky top-0 z-50  justify-between py-2 dark:bg-black bg-white text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
       <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6 lg:mx-8">
         <button
           class="navbar-toggler dark:text-gray-200 text-gray-700  border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
@@ -56,7 +56,7 @@ const Navbar = ({ sendDataToParent }) => {
             </span>
           </Link>
 
-          <ul class="navbar-nav flex flex-col items-center pl-0 list-style-none lg:ml-12 mr-auto">
+          <ul class="navbar-nav flex flex-col  pt-1 pl-0 list-style-none lg:ml-12 mr-auto">
             {Links.map((item) => {
               return (
                 <li class="nav-item p-2">

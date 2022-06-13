@@ -6,7 +6,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import "./Header.css";
 import Fade from "react-reveal/Fade";
-
+import img from "../../image/str.png";
 const Header = ({ dark }) => {
   const particlesInit = async (main) => {
     // console.log(main);
@@ -22,11 +22,7 @@ const Header = ({ dark }) => {
   };
 
   return (
-    <div
-      className="bg-black pb-12 md:pb-0"
-      style={{ heigth: "400px" }}
-      id="header"
-    >
+    <div className="bg-black md:pb-0" style={{ heigth: "400px" }} id="header">
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -67,11 +63,11 @@ const Header = ({ dark }) => {
               value: `${dark ? "#fff" : "#ff136f"}`,
             },
             links: {
-              color: `${dark ? "#fff" : "#ff136f"}`,
+              // color: `${dark ? "#fff" : "#ff136f"}`,
               distance: 150,
               enable: true,
-              opacity: 0.5,
-              width: 1,
+              opacity: 1,
+              width: 0,
             },
             collisions: {
               enable: true,
@@ -91,16 +87,19 @@ const Header = ({ dark }) => {
                 enable: true,
                 area: 800,
               },
-              value: 80,
+              value: 60,
             },
             opacity: {
-              value: 0.5,
+              value: 1,
             },
             shape: {
-              type: "circle",
+              type: "image",
+              image: {
+                src: img,
+              },
             },
             size: {
-              value: { min: 1, max: 5 },
+              value: { min: 5, max: 30 },
             },
           },
           detectRetina: true,

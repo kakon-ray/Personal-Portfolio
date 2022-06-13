@@ -15,7 +15,7 @@ const Projects = () => {
         className="dark:bg-black bg-white text-white py-8 py-24"
         id="projects"
       >
-        <section class=" text-gray-800 mx-4 lg:mx-12 font-bold">
+        <section class=" text-gray-800 mx-4 lg:mx-12 font-bold py-24">
           <h2 class="text-3xl font-bold mb-12 text-center uppercase dark:text-white text-gray-700">
             My awesome <u class="text-yellow-400 "> Projects</u>
           </h2>
