@@ -12,15 +12,14 @@
   },
   {
     "id": "2",
-    "name": "Multicurt",
-    "img": "https://i.ibb.co/z2HJHN4/portfolio-5.png",
-    "liveLink": "https://multicart-baa75.web.app/",
-    "clientRepoLink": "https://github.com/kakon-ray/Multikart-Client",
-    "ServerRepoLink": "https://github.com/kakon-ray/Multicart-Server",
+    "name": "And Shop",
+    "img": "https://i.ibb.co/PxVwM84/portfolio2.png",
+    "liveLink": "https://and-shop-3df4d.web.app/",
+    "clientRepoLink": "https://github.com/kakon-ray/And-Shop-Client",
+    "ServerRepoLink": "https://github.com/kakon-ray/And-Shop-Client",
     "description1": "MERN Stack Single page Multivendor E-commerce app",
-    "description2": "Front-end Technology: React.js, React Query, React Hooks Form, ES-6, Tailwind CSS, Tailwind Element, etc.",
-    "description3": "Back-end Technology: Node Js, Express Js, MongoDB.",
-    "description4": ""
+    "description2": "Front-end Technology: React.js, ES-6, Bootstrap5, React-Bootstrap5, CSS3",
+    "description3": "Back-end Technology: Node Js, Express Js, MongoDB."
   },
   {
     "id": "3",
@@ -46,14 +45,15 @@
   },
   {
     "id": "5",
-    "name": "And Shop",
-    "img": "https://i.ibb.co/PxVwM84/portfolio2.png",
-    "liveLink": "https://and-shop-3df4d.web.app/",
-    "clientRepoLink": "https://github.com/kakon-ray/And-Shop-Client",
-    "ServerRepoLink": "https://github.com/kakon-ray/And-Shop-Client",
+    "name": "Multicurt",
+    "img": "https://i.ibb.co/z2HJHN4/portfolio-5.png",
+    "liveLink": "https://multikart-react.vercel.app/",
+    "clientRepoLink": "https://github.com/kakon-ray/Multikart-Client",
+    "ServerRepoLink": "https://github.com/kakon-ray/Multicart-Server",
     "description1": "MERN Stack Single page Multivendor E-commerce app",
-    "description2": "Front-end Technology: React.js, ES-6, Bootstrap5, React-Bootstrap5, CSS3",
-    "description3": "Back-end Technology: Node Js, Express Js, MongoDB."
+    "description2": "Front-end Technology: React.js, React Query, React Hooks Form, ES-6, Tailwind CSS, Tailwind Element, etc.",
+    "description3": "Back-end Technology: Node Js, Express Js, MongoDB.",
+    "description4": ""
   },
   {
     "id": "6",
