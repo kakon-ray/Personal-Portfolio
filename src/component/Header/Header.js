@@ -7,6 +7,8 @@ import { loadFull } from "tsparticles";
 import "./Header.css";
 import Fade from "react-reveal/Fade";
 import img from "../../image/str.png";
+import Typewriter from "typewriter-effect";
+
 const Header = ({ dark }) => {
   const particlesInit = async (main) => {
     // console.log(main);
@@ -112,8 +114,21 @@ const Header = ({ dark }) => {
           </h3>
           <h1 className="text-3xl lg:text-5xl dark:text-white text-gray-700 py-8">
             Hi There, <span className="text-yellow-400">I'm Kakon Ray</span>{" "}
-            <br></br> An Full Stack Developer.
+            <br></br>{" "}
+            <Typewriter
+              options={{
+                strings: [
+                  "Full Stack JavaScript Developer.",
+                  "Front End Expert",
+                  "React.js Expert",
+                  "MERN Stack Developer",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            />
           </h1>
+
           <p className="dark:text-white text-gray-700 text-lg pr-10 lg:pr-0">
             As a Web developer, I always have enthusiasm and hunger for learning
             new technologies.<br></br> I am always ready to deliver my full
