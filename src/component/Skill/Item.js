@@ -6,12 +6,12 @@ const Item = ({ title, parcentage }) => {
   const myAppRef = document.querySelector(".scrollable-div");
   return (
     <div>
-      <div className="flex justify-center ml-3 mx-auto flex justify-center">
+      <div className="flex justify-center">
         <ProgressBar
           width="350px"
           height="10px"
           fontColor="white"
-          trackWidth="10"
+          trackWidth="90"
           percentage={parcentage}
           trackPathColor="grey"
           trackBorderColor="black"

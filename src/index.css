@@ -41,6 +41,10 @@ html {
   background: #bc135f;
 }
 
+.progress-bar-circ-container {
+  margin: auto;
+}
+
 @layer components {
   .bg-black {
     @apply bg-black-background opacity-90;

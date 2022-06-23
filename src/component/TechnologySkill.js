@@ -21,7 +21,7 @@ const TechnologySkill = () => {
           <Item title="Firebase Authentication / JWT Token" parcentage="70" />
         </div>
       </div>
-      <div className="dark:bg-black bg-white pb-12 dark:text-white text-gray-700">
+      <div className="dark:bg-black bg-white py-12 dark:text-white text-gray-700">
         <h1 className="text-4xl text-center  pb-12 uppercase font-bold">
           Skills <span className="text-yellow-400">Backend Technology</span>
         </h1>
