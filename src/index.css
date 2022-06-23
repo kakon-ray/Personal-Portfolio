@@ -12,7 +12,12 @@ html {
 
 ::-webkit-scrollbar {
   background-color: #db2777;
-  width: 14px;
+  width: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 /* Track */
@@ -23,6 +28,12 @@ html {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #db2777;
+  border-radius: 50px;
+  box-shadow: rgb(255, 255, 255);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
 
 /* Handle on hover */
