@@ -106,20 +106,20 @@ const Header = ({ dark }) => {
         }}
       ></Particles>
       <Fade left>
-        <div className="absolute top-40 mx-4 lg:mx-16 pt-10">
+        <div className="absolute top-40 mx-4 lg:mx-16 pt-4">
           <h3 className="text-3xl font-bold text-yellow-400 uppercase">
             Welcome To My Site
           </h3>
           <h1 className="text-3xl lg:text-5xl dark:text-white text-gray-700 py-8">
-            Hi There, <span>I'm Kakon Ray</span> <br></br> An Full Stack
-            Developer.
+            Hi There, <span className="text-yellow-400">I'm Kakon Ray</span>{" "}
+            <br></br> An Full Stack Developer.
           </h1>
-          <p className="dark:text-white text-gray-700 text-sm pr-10 lg:pr-0">
+          <p className="dark:text-white text-gray-700 text-lg pr-10 lg:pr-0">
             As a Web developer, I always have enthusiasm and hunger for learning
             new technologies.<br></br> I am always ready to deliver my full
             potential to the company I am committed.
           </p>
-          <p className="dark:text-white text-gray-700 text-sm pr-10 lg:pr-0 pt-4">
+          <p className="dark:text-white text-gray-700 text-lg pr-10 lg:pr-0 pt-4">
             Email: kakonray.cse@gmail.com
           </p>
           <p className="dark:text-white text-gray-700 text-sm pr-10 lg:pr-0">
