@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link, Router } from "react-router-dom";
 import "./Navbar.css";
 import img from "../../image/str2.png";
-const Navbar = ({ sendDataToParent }) => {
+const Navbar = ({ sendDataToParent, dark }) => {
   let [open, setOpen] = useState(false);
 
   let Links = [
@@ -79,7 +79,7 @@ const Navbar = ({ sendDataToParent }) => {
             <input
               className="form-check-input appearance-none w-9 rounded-full  h-5 align-top bg-stone-600 bg-no-repeat dark:checked:bg-yellow-500 checked:bg-pink-600 bg-pink-600 focus:outline-none cursor-pointer shadow-sm"
               type="checkbox"
-              onChange={(e) => sendDataToParent(e.target.checked)}
+              onChange={(e) => sendDataToParent(!dark)}
               role="switch"
               id="flexSwitchCheckChecked"
             />

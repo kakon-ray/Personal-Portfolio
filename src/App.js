@@ -6,13 +6,13 @@ import ProjectsDetails from "./component/ProjectsDetails";
 import Home from "./Page/Home";
 
 const App = () => {
-  const [dark, sendDataToParent] = useState(false);
+  const [dark, sendDataToParent] = useState(true);
 
   console.log(dark);
 
   return (
     <div className={`${dark ? "dark" : ""}`}>
-      <Navbar sendDataToParent={sendDataToParent}></Navbar>
+      <Navbar sendDataToParent={sendDataToParent} dark={dark}></Navbar>
       <ProjectsProvider>
         <Routes>
           <Route path="/" element={<Home dark={dark} />} />
