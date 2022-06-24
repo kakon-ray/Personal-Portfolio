@@ -11,25 +11,23 @@ html {
 }
 
 ::-webkit-scrollbar {
-  background-color: #db2777;
-  width: 10px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+  background-color: rgb(234 88 12);
+  box-shadow: inset 0 0 5px rgb(255, 255, 255);
+  width: 8px;
+  height: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #888;
+  background: rgb(255, 255, 255);
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 50px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #db2777;
+  background: rgb(234 88 12);
   border-radius: 50px;
-  box-shadow: rgb(255, 255, 255);
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
   -ms-border-radius: 50px;
@@ -38,7 +36,7 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #bc135f;
+  background: rgb(234 88 12);
 }
 
 .progress-bar-circ-container {
