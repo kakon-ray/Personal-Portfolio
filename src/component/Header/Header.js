@@ -112,22 +112,23 @@ const Header = ({ dark }) => {
           <h3 className="text-3xl font-bold text-yellow-400 uppercase">
             Welcome To My Site
           </h3>
-          <h1 className="text-3xl lg:text-5xl dark:text-white text-gray-700 py-8">
-            Hi There, <span className="text-yellow-400">I'm Kakon Ray</span>{" "}
-            <br></br>{" "}
-            <Typewriter
-              options={{
-                strings: [
-                  "Full Stack JavaScript Developer.",
-                  "Front End Expert",
-                  "React.js Expert",
-                  "MERN Stack Developer",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-          </h1>
+          <div className="text-3xl lg:text-5xl dark:text-white text-gray-700 py-4">
+            Hi There, I'm Kakon Ray{" "}
+            <div className="text-yellow-400 py-4">
+              <Typewriter
+                options={{
+                  strings: [
+                    "I'm Full Stack JavaScript Developer.",
+                    "I'm Front End Expert",
+                    "I'm React.js Expert",
+                    "I'm MERN Stack Developer",
+                  ],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </div>
+          </div>
 
           <p className="dark:text-white text-gray-700 text-lg pr-10 lg:pr-0">
             As a Web developer, I always have enthusiasm and hunger for learning
