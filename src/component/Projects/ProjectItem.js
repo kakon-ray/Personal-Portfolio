@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const ProjectItem = ({ img, title, live, server, client, details, id }) => {
   return (
-    <section className="shadow-md shadow-pink-600 pb-4 dark:hover:shadow-white hover:shadow-yellow-500 transition delay-150  rounded-top container  text-center">
+    <section className="shadow-sm shadow-pink-600 pb-4 dark:hover:shadow-white hover:shadow-yellow-500 transition delay-150  rounded-top container  text-center">
       <div
         class="zoom shadow-lg rounded-lg relative overflow-hidden bg-no-repeat bg-cover project-item"
         style={{ backgroundPosition: "50%" }}
@@ -31,7 +31,7 @@ const ProjectItem = ({ img, title, live, server, client, details, id }) => {
                 href="https://engineering-workshop-a0bd0.web.app/"
                 target="_blank"
                 type="button"
-                class="inline-block px-6 my-2 py-2 bg-purple-600 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out"
+                class="inline-block px-6 my-2 py-2 bg-color text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
               >
                 Details
               </a>
@@ -54,24 +54,30 @@ const ProjectItem = ({ img, title, live, server, client, details, id }) => {
         <a
           href={live}
           target="_blank"
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
           type="button"
-          class="inline-block px-3 mx-1 py-2.5 bg-white  hover:text-white text-pink-600 font-medium text-sm leading-tight rounded shadow-md hover:bg-pink-600 hover:shadow-lg focus:bg-pink-700 focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-200 active:shadow-lg transition duration-150 ease-in-out"
+          class="inline-block px-6 my-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
         >
           Live Link
         </a>
         <a
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
           href={client}
           target="_blank"
           type="button"
-          class="inline-block px-3 mx-1 py-2.5 bg-white  hover:text-white text-pink-600 font-medium text-sm leading-tight rounded shadow-md hover:bg-pink-600 hover:shadow-lg focus:bg-pink-700 focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-200 active:shadow-lg transition duration-150 ease-in-out"
+          class="inline-block px-6 my-1 mx-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
         >
           Client Code
         </a>
         <a
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
           href={server}
           target="_blank"
           type="button"
-          class="inline-block px-3 mx-1 py-2.5 bg-white  hover:text-white text-pink-600 font-medium text-sm leading-tight rounded shadow-md hover:bg-pink-600 hover:shadow-lg focus:bg-pink-700 focus:text-white focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-200 active:shadow-lg transition duration-150 ease-in-out"
+          class="inline-block px-6 my-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
         >
           Server Code
         </a>

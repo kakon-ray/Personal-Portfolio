@@ -22,6 +22,8 @@ const Navbar = ({ sendDataToParent, dark }) => {
         <button
           class="navbar-toggler dark:text-gray-200 text-gray-700  border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
           type="button"
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent1"
           aria-controls="navbarSupportedContent"

@@ -5,6 +5,13 @@
 .container {
   position: relative;
 }
+.bg-pink-600 {
+  background-color: #ff3066 !important;
+}
+
+.bg-pink-700 {
+  background-color: #ff3066 !important;
+}
 
 .image {
   display: block;
