@@ -38,20 +38,6 @@ export const ProjectsProvider = (props) => {
     },
     {
       id: "3",
-      name: "Logika",
-      img: "https://i.ibb.co/HYgL4WT/portfolio4.png",
-      img1: "https://i.ibb.co/N7bj8LZ/Screenshot-4.png",
-      img2: "https://i.ibb.co/HYgL4WT/portfolio4.png",
-      liveLink: "https://logika-warehouse.web.app/",
-      clientRepoLink: "https://github.com/kakon-ray/Logika-Client",
-      ServerRepoLink: "https://github.com/kakon-ray/Logika-Server",
-      description1: "MERN stack single page Warehouse Management app",
-      description2: "Front-end Technology: React.js, ES-6, Tailwind, CSS3",
-      description3: "Back-end Technology: Node Js, Express Js, MongoDB.",
-    },
-
-    {
-      id: "4",
       name: "And Shop",
       img: "https://i.ibb.co/PxVwM84/portfolio2.png",
       img1: "https://i.ibb.co/wyVN4qz/Screenshot-1.png",
@@ -64,6 +50,20 @@ export const ProjectsProvider = (props) => {
         "Front-end Technology: React.js, ES-6, Bootstrap5, React-Bootstrap5, CSS3",
       description3: "Back-end Technology: Node Js, Express Js, MongoDB.",
     },
+    {
+      id: "4",
+      name: "Logika",
+      img: "https://i.ibb.co/HYgL4WT/portfolio4.png",
+      img1: "https://i.ibb.co/N7bj8LZ/Screenshot-4.png",
+      img2: "https://i.ibb.co/HYgL4WT/portfolio4.png",
+      liveLink: "https://logika-warehouse.web.app/",
+      clientRepoLink: "https://github.com/kakon-ray/Logika-Client",
+      ServerRepoLink: "https://github.com/kakon-ray/Logika-Server",
+      description1: "MERN stack single page Warehouse Management app",
+      description2: "Front-end Technology: React.js, ES-6, Tailwind, CSS3",
+      description3: "Back-end Technology: Node Js, Express Js, MongoDB.",
+    },
+
     {
       id: "5",
       name: "Digital Hospital",
@@ -115,7 +115,7 @@ export const ProjectsProvider = (props) => {
       img1: "https://i.ibb.co/8bxhKj9/cardoctor2.png",
       img2: "https://i.ibb.co/q0HY2bw/cartdoctor1.png",
       liveLink: "https://the-car-doctor-limited.web.app/",
-      clientRepoLink: "https://github.com/kakon-ray/Amazon-MernStuck",
+      clientRepoLink: "https://github.com/kakon-ray/amazon",
       ServerRepoLink: "https://github.com/kakon-ray/Amazon-MernStuck",
       description1: "MERN Stack Single page Doctors Portal Website",
       description2:
