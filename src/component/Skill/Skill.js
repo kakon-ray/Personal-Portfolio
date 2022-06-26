@@ -14,12 +14,12 @@ const Skill = () => {
       <div className="dark:bg-black bg-white bg-opacity-95 py-24">
         <div className="grid grid-cols1 md:grid-cols-2 content-center text-white mx-4 lg:mx-12">
           <div>
-            <h3 class="text-4xl dark:text-yellow-400 text-pink-600 text-center font-bold mb-6 lg:ml-24 py-8 uppercase">
+            <h3 className="text-4xl dark:text-yellow-400 text-pink-600 text-center font-bold mb-6 lg:ml-24 py-8 uppercase">
               Certificate
             </h3>
 
             <div className="flex items-center flex-col">
-              <ol class="border-l-2 border-pink-600 mx-auto">
+              <ol className="border-l-2 border-pink-600 mx-auto">
                 <li>
                   <SkillDetails
                     title="BSC in Computer Science & Engineering"
@@ -57,12 +57,12 @@ const Skill = () => {
             </div>
           </div>
           <div>
-            <h3 class="text-4xl dark:text-yellow-400 text-pink-600 font-bold mb-6 text-center lg:ml-24 py-8 uppercase">
+            <h3 className="text-4xl dark:text-yellow-400 text-pink-600 font-bold mb-6 text-center lg:ml-24 py-8 uppercase">
               Experience
             </h3>
 
             <div className="flex items-center flex-col">
-              <ol class="border-l-2 border-pink-600 mx-auto">
+              <ol className="border-l-2 border-pink-600 mx-auto">
                 <li>
                   <SkillDetails
                     title="Front End Development"

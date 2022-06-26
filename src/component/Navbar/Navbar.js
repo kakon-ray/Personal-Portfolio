@@ -17,10 +17,10 @@ const Navbar = ({ sendDataToParent, dark }) => {
   ];
 
   return (
-    <nav class=" w-full flex flex-wrap sticky top-0 z-50  justify-between py-2 dark:bg-black bg-white text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid w-full flex flex-wrap items-center justify-between px-6 lg:mx-8">
+    <nav className=" w-full flex flex-wrap sticky top-0 z-50  justify-between py-2 dark:bg-black bg-white text-gray-200 shadow-lg navbar navbar-expand-lg navbar-light">
+      <div className="container-fluid w-full flex flex-wrap items-center justify-between px-6 lg:mx-8">
         <button
-          class="navbar-toggler dark:text-gray-200 text-gray-700  border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+          className="navbar-toggler dark:text-gray-200 text-gray-700  border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
           type="button"
           data-mdb-ripple="true"
           data-mdb-ripple-color="light"
@@ -35,7 +35,7 @@ const Navbar = ({ sendDataToParent, dark }) => {
             focusable="false"
             data-prefix="fas"
             data-icon="bars"
-            class="w-6"
+            className="w-6"
             role="img"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 448 512"
@@ -47,7 +47,7 @@ const Navbar = ({ sendDataToParent, dark }) => {
           </svg>
         </button>
         <div
-          class="collapse navbar-collapse flex-grow items-center"
+          className="collapse navbar-collapse flex-grow items-center"
           id="navbarSupportedContent1"
         >
           <Link to="/">
@@ -59,12 +59,12 @@ const Navbar = ({ sendDataToParent, dark }) => {
             </span>
           </Link>
 
-          <ul class="navbar-nav flex flex-col  pt-1 pl-0 list-style-none lg:ml-12 mr-auto">
+          <ul className="navbar-nav flex flex-col  pt-1 pl-0 list-style-none lg:ml-12 mr-auto">
             {Links.map((item) => {
               return (
-                <li class="nav-item p-2">
+                <li className="nav-item p-2">
                   <a
-                    class="nav-link dark:text-white text-gray-800 uppercase font-bold opacity-60 hover:opacity-80 focus:opacity-80 p-0"
+                    className="nav-link dark:text-white text-gray-800  font-bold opacity-60 hover:opacity-80 focus:opacity-80 p-0"
                     href={item.link}
                   >
                     {item.name}
@@ -74,7 +74,7 @@ const Navbar = ({ sendDataToParent, dark }) => {
             })}
           </ul>
         </div>
-        <div class="flex items-center relative ml-2 lg:ml-0">
+        <div className="flex items-center relative ml-2 lg:ml-0">
           <div
             className={`form-check form-switch pl-0 md:my-6 sm:my-6 lg:my-0 xl:mb-0`}
           >

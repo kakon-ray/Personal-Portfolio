@@ -2,10 +2,10 @@ import React from "react";
 
 const SkillIcon = ({ title }) => {
   return (
-    <div class="w-full">
-      <p class="flex items-center justify-center md:justify-start text-sm">
+    <div className="w-full">
+      <p className="flex items-center justify-center md:justify-start text-sm">
         <svg
-          class="w-4 h-4 mr-2"
+          className="w-4 h-4 mr-2"
           role="img"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"

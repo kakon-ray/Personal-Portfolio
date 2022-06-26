@@ -12,12 +12,12 @@ const Projects = () => {
   return (
     <div>
       <div className="dark:bg-black bg-white text-white" id="projects">
-        <section class=" text-gray-800 mx-4 lg:mx-12 font-bold py-24">
-          <h2 class="text-3xl font-bold mb-12 text-center uppercase dark:text-white text-gray-700">
-            My awesome <u class="text-yellow-400 "> Projects</u>
+        <section className=" text-gray-800 mx-4 lg:mx-12 font-bold py-24">
+          <h2 className="text-3xl font-bold mb-12 text-center uppercase dark:text-white text-gray-700">
+            My awesome <u className="text-yellow-400 "> Projects</u>
           </h2>
 
-          <div class="grid lg:grid-cols-3 gap-8">
+          <div className="grid lg:grid-cols-3 gap-8">
             {projects?.map((data) => {
               return (
                 <Slide bottom>

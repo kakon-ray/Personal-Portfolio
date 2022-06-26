@@ -8,8 +8,6 @@ import Home from "./Page/Home";
 const App = () => {
   const [dark, sendDataToParent] = useState(true);
 
-  console.log(dark);
-
   return (
     <div className={`${dark ? "dark" : ""}`}>
       <Navbar sendDataToParent={sendDataToParent} dark={dark}></Navbar>

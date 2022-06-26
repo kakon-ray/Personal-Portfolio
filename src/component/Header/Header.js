@@ -143,8 +143,11 @@ const Header = ({ dark }) => {
           </p>
 
           <a
+            data-mdb-ripple="true"
+            data-mdb-ripple-color="light"
+            type="button"
             href="https://drive.google.com/file/d/10jyXsgBskZWE4BmKVpPLl1nlzbSlcLmn/view?usp=sharing"
-            className="inline-block shadow-lg px-6 py-3 mt-12 dark:bg-stone-700 bg-pink-600  text-white  text-sm leading-tight font-bold rounded-full  hover:bg-pink-700 dark:hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
+            className="inline-block shadow-lg px-6 py-2 mt-12 dark:bg-stone-700 bg-pink-600  text-white  text-sm leading-tight font-bold rounded-full  hover:bg-pink-700 dark:hover:bg-pink-600 hover:shadow-lg focus:bg-pink focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
             target="_blank"
           >
             {" "}
@@ -154,7 +157,7 @@ const Header = ({ dark }) => {
       </Fade>
       <Fade right>
         <div className="flex justify-end absolute bottom-6 lg:bottom-40 right-1 lg:right-12 heder-social-icon">
-          <div class="flex gap-8 flex-col ">
+          <div className="flex gap-8 flex-col ">
             <a
               href="https://www.linkedin.com/in/kakon-ray-487836201/"
               target="_blank"
@@ -164,12 +167,12 @@ const Header = ({ dark }) => {
                 type="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                class="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                className="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 448 512"
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                 >
                   <path
                     fill="currentColor"
@@ -183,11 +186,11 @@ const Header = ({ dark }) => {
                 type="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                class="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                className="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                   viewBox="0 0 512 512"
                 >
                   <path
@@ -206,12 +209,12 @@ const Header = ({ dark }) => {
                 type="button"
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
-                class="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
+                className="inline-block p-3 bg-pink-600 dark:bg-yellow-500 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out mx-1"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 320 512"
-                  class="w-5 h-5"
+                  className="w-5 h-5"
                 >
                   <path
                     fill="currentColor"

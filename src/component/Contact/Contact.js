@@ -4,15 +4,15 @@ import Slide from "react-reveal/Slide";
 import Zoom from "react-reveal/Zoom";
 const Contact = () => {
   return (
-    <section class=" text-gray-800 text-center lg:text-left" id="contact">
-      <div class="px-6 py-12 md:px-12  pt-24 bg-black ">
-        <div class="grid lg:grid-cols-2 gap-12  items-center">
+    <section className=" text-gray-800 text-center lg:text-left" id="contact">
+      <div className="px-6 py-12 md:px-12  pt-24 bg-black ">
+        <div className="grid lg:grid-cols-2 gap-12  items-center">
           <Slide left>
-            <div class="mt-12 lg:mt-0">
-              <h1 class="text-5xl text-gray-200 uppercase font-bold tracking-tight leading-tight mb-6">
-                Contact <span class="text-yellow-400"> Me</span>
+            <div className="mt-12 lg:mt-0">
+              <h1 className="text-5xl text-gray-200 uppercase font-bold tracking-tight leading-tight mb-6">
+                Contact <span className="text-yellow-400"> Me</span>
               </h1>
-              <p class="text-gray-200">
+              <p className="text-gray-200">
                 As a Web developer, I always have enthusiasm and hunger for
                 learning new technologies. I am always ready to deliver my full
                 potential to the company I am committed.
@@ -20,33 +20,33 @@ const Contact = () => {
             </div>
           </Slide>
           <Zoom>
-            <div class="mb-12 lg:mb-0">
-              <div class="block rounded-lg border-t shadow-md shadow-pink-600 bg-black px-6 py-12 md:px-12">
+            <div className="mb-12 lg:mb-0">
+              <div className="block rounded-lg border-t shadow-sm shadow-pink-600 bg-black px-6 py-12 md:px-12">
                 <form>
-                  <div class="grid md:grid-cols-2 md:gap-8">
-                    <div class="mb-6">
+                  <div className="grid md:grid-cols-2 md:gap-8">
+                    <div className="mb-6">
                       <input
                         type="text"
-                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
+                        className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
                         placeholder="Full Name"
                       />
                     </div>
-                    <div class="mb-6">
+                    <div className="mb-6">
                       <input
                         type="phonenumber"
-                        class="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
+                        className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
                         placeholder="Phone Number"
                       />
                     </div>
                   </div>
                   <input
                     type="email"
-                    class="form-control block w-full px-3 py-1.5 mb-6 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
+                    className="form-control block w-full px-3 py-1.5 mb-6 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
                     placeholder="Email Address"
                   />
                   <textarea
                     type="text"
-                    class="form-control block w-full px-3 py-1.5 mb-6 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
+                    className="form-control block w-full px-3 py-1.5 mb-6 text-base font-normal text-gray-200 bg-black bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-200 focus:bg-black focus:border-pink-600 focus:outline-none"
                     placeholder="Enter Your Message"
                   />
 
@@ -54,25 +54,25 @@ const Contact = () => {
                     type="button"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    class="inline-block px-6 py-2.5 mb-6 w-full bg-pink-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
+                    className="inline-block px-6 py-2.5 mb-6 w-full bg-pink-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
                   >
                     Submit
                   </button>
 
-                  <div class="text-center text-gray-200">
-                    <p class="mb-6">Contact social media</p>
+                  <div className="text-center text-gray-200">
+                    <p className="mb-6">Contact social media</p>
                   </div>
-                  <div class="flex justify-center">
+                  <div className="flex justify-center">
                     <a
                       href="https://github.com/kakon-ray"
                       target="_blank"
                       role="button"
-                      class="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
+                      className="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 496 512"
-                        class="w-4 h-4 mx-4"
+                        className="w-4 h-4 mx-4"
                       >
                         <path
                           fill="currentColor"
@@ -84,12 +84,12 @@ const Contact = () => {
                       href="https://www.linkedin.com/in/kakon-ray-487836201/"
                       target="_blank"
                       role="button"
-                      class="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
+                      className="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 448 512"
-                        class="w-4 h-4 mx-4"
+                        className="w-4 h-4 mx-4"
                       >
                         <path
                           fill="currentColor"
@@ -101,12 +101,12 @@ const Contact = () => {
                       href="https://www.facebook.com/profile.php?id=100036691910474"
                       target="_blank"
                       role="button"
-                      class="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
+                      className="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 320 512"
-                        class="w-4 h-4 mx-4"
+                        className="w-4 h-4 mx-4"
                       >
                         <path
                           fill="currentColor"
@@ -119,12 +119,12 @@ const Contact = () => {
                       href="https://twitter.com/ray_kakon"
                       target="_blank"
                       role="button"
-                      class="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
+                      className="text-pink-600 hover:text-pink-700 focus:text-pink-700 action:text-pink-800 transition duration-200 ease-in-out"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 512 512"
-                        class="w-4 h-4 mx-4"
+                        className="w-4 h-4 mx-4"
                       >
                         <path
                           fill="currentColor"
