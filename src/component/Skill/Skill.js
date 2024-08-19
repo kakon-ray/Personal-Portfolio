@@ -25,10 +25,10 @@ const Skill = () => {
                     title="BSC in Computer Science & Engineering"
                     education=" Northern University Business & Technology / 2020 -
                           2023"
-                    detials=" Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque scelerisque diam non nisi semper, et elementum
-                        lorem ornare. Maecenas placerat facilisis mollis. Duis
-                        sagittis ligula in sodales vehicula."
+                          detials="I am a Full Stack Software Engineer with extensive experience in
+                          both frontend and backend development, proficient in designing
+                          and implementing comprehensive web applications.I have three
+                          years professional experience Laravel, React Js and Next Js."
                   />
                 </li>
                 <li>
@@ -36,10 +36,10 @@ const Skill = () => {
                     title=" Web Development"
                     education="Khulna University of Engineering & Technology / 2021 -
                           2022"
-                    detials="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque scelerisque diam non nisi semper, et elementum
-                        lorem ornare. Maecenas placerat facilisis mollis. Duis
-                        sagittis ligula in sodales vehicula."
+                    detials="I am a Full Stack Software Engineer with extensive experience in
+                      both frontend and backend development, proficient in designing
+                      and implementing comprehensive web applications.I have three
+                      years professional experience Laravel, React Js and Next Js."
                   />
                 </li>
 
@@ -47,10 +47,10 @@ const Skill = () => {
                   <SkillDetails
                     title="Full Stack Web Development"
                     education="Programming Hero / 2022(January) - 2022(Jun)"
-                    detials="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque scelerisque diam non nisi semper, et elementum
-                        lorem ornare. Maecenas placerat facilisis mollis. Duis
-                        sagittis ligula in sodales vehicula."
+                    detials="I am a Full Stack Software Engineer with extensive experience in
+                    both frontend and backend development, proficient in designing
+                      and implementing comprehensive web applications.I have three
+                      years professional experience Laravel, React Js and Next Js."
                   />
                 </li>
               </ol>
@@ -67,20 +67,21 @@ const Skill = () => {
                   <SkillDetails
                     title="Front End Development"
                     education=" JavaScript, ES6,DOM, React.Js, Redux/Context API (if needed), React-query,   Axios, CSS3, HTML5, Bootstrap, Tailwind,SCSS, Responsive Design,  Firebase-Authentication, JWT Token"
-                    detials="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque scelerisque diam non nisi semper, et elementum
-                        lorem ornare. Maecenas placerat facilisis mollis. Duis
-                        sagittis ligula in sodales vehicula."
+                    detials="I am a Full Stack Software Engineer with extensive experience in
+                      both frontend and backend development, proficient in designing
+                      and implementing comprehensive web applications.I have three
+                      years professional experience Laravel, React Js and Next Js."
                   />
                 </li>
                 <li>
                   <SkillDetails
-                    title="Back End Developmentt"
-                    education="Node.js, Express.js, MongoDB"
-                    detials="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque scelerisque diam non nisi semper, et elementum
-                        lorem ornare. Maecenas placerat facilisis mollis. Duis
-                        sagittis ligula in sodales vehicula."
+                    title="Back End Development"
+                    education="PHP, Laravel, MYSQL, Reset Api Development"
+                    detials="I am a Full Stack Software Engineer with extensive experience in
+                    both frontend and backend development, proficient in designing
+                    and implementing comprehensive web applications.I have three
+                    years professional experience Laravel, React Js and Next Js.
+                    "
                   />
                 </li>
 
@@ -90,10 +91,11 @@ const Skill = () => {
                     title="Full Stack Development"
                     education="Responsive Design, Frontend development, Backend
                           development"
-                    detials="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Quisque scelerisque diam non nisi semper, et elementum
-                        lorem ornare. Maecenas placerat facilisis mollis. Duis
-                        sagittis ligula in sodales vehicula."
+                    detials="I am a Full Stack Software Engineer with extensive experience in
+                      both frontend and backend development, proficient in designing
+                      and implementing comprehensive web applications.I have three
+                      years professional experience Laravel, React Js and Next Js.
+                    "
                   />
                 </li>
               </ol>

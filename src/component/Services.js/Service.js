@@ -1,6 +1,6 @@
 import React from "react";
 
-const Service = () => {
+const Service = ({service}) => {
   return (
     <div className="flex justify-center ">
       <div className="block rounded-lg shadow-sm dark:bg-stone-900 bg-white text-gray-700 dark:hover:bg-slate-900 hover:bg-slate-900 shadow-stone-500  dark:text-white  hover:text-white text-center">
@@ -22,7 +22,7 @@ const Service = () => {
         </div>
         <div className="p-6 pt-6">
           <h5 className="text-xl font-medium mb-2">
-            Web Application Development
+            {service} Web Application Development
           </h5>
           <p className="py-2 text-sm">
             With supporting text below as a natural lead-in to additional

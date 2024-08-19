@@ -35,10 +35,10 @@ const AboutMe = () => {
                     Technologies Used in web application:
                   </p>
                   <div className="flex flex-wrap gap-3 mb-6 ">
-                    <SkillIcon title="Full Stack Developer"></SkillIcon>
+                    <SkillIcon title="Full Stack Laravel, React.js, Next.js Developer"></SkillIcon>
                     <SkillIcon title="React.js Experts"></SkillIcon>
-                    <SkillIcon title="Frontend Experts"></SkillIcon>
-                    <SkillIcon title="Backend Developer"></SkillIcon>
+                    <SkillIcon title="Next.js Experts"></SkillIcon>
+                    <SkillIcon title="Full Stack Laravel Developer"></SkillIcon>
                   </div>
                   <button
                     type="button"

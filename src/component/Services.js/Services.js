@@ -19,22 +19,22 @@ const Services = () => {
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:grid-cols-3 mx-4 lg:mx-12">
           <Fade bottom>
-            <Service />
+            <Service service="Laravel"/>
           </Fade>
           <Fade bottom>
-            <Service />
+            <Service service="React.js"/>
           </Fade>
           <Fade bottom>
-            <Service />
+            <Service service="Next.js"/>
           </Fade>
           <Fade bottom>
-            <Service />
+            <Service service=""/>
           </Fade>
           <Fade bottom>
-            <Service />
+            <Service service=""/>
           </Fade>
           <Fade bottom>
-            <Service />
+            <Service service=""/>
           </Fade>
         </div>
       </div>

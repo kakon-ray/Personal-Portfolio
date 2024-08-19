@@ -118,10 +118,10 @@ const Header = ({ dark }) => {
               <Typewriter
                 options={{
                   strings: [
-                    "I'm Full Stack JavaScript Developer.",
+                    "I'm Full Stack Laravel, React.js, Next.js Developer",
                     "I'm Front End Expert",
                     "I'm React.js Expert",
-                    "I'm MERN Stack Developer",
+                    "I'm Next.js Developer",
                   ],
                   autoStart: true,
                   loop: true,
