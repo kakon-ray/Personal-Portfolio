@@ -40,7 +40,7 @@ export const ProjectsProvider = (props) => {
         `Front-end Technology: React.js, ES-6, Bootstrap5, React-Bootstrap5, CSS3
         Back-end Technology: Node Js, Express Js, MongoDB.
         `,
-      description3: "Admin Login: thisiskakonray@gmail.com, Password:12345678",
+      description3: "User / Vendor Login: thisiskakonray@gmail.com, Password:12345678",
     },
 
     {
@@ -55,7 +55,7 @@ export const ProjectsProvider = (props) => {
       description1: "MERN Stack Single page Multivendor E-commerce app",
       description2:
         "Front-end Technology: JavaScript, Next.js, Redux and Bootstrap.",
-      description3: "User / Vendor Login: admin@envobyte.com, Password:12345678",
+      description3: "Admin Login: admin@envobyte.com, Password:12345678",
     },
 
     {
