@@ -32,7 +32,7 @@ export const ProjectsProvider = (props) => {
       img: "https://i.ibb.co/PxVwM84/portfolio2.png",
       img1: "https://i.ibb.co/wyVN4qz/Screenshot-1.png",
       img2: "https://i.ibb.co/r3Xm2C3/Screenshot-2.png",
-      liveLink: "https://and-shop-3df4d.web.app/",
+      liveLink: "https://andshop.netlify.app/",
       clientRepoLink: "https://github.com/kakon-ray/And-Shop-Client",
       ServerRepoLink: "https://github.com/kakon-ray/And-Shop-Client",
       description1: "MERN Stack Single page Multivendor E-commerce app",
