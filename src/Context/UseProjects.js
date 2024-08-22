@@ -38,8 +38,9 @@ export const ProjectsProvider = (props) => {
       description1: "MERN Stack Single page Multivendor E-commerce app",
       description2:
         `Front-end Technology: React.js, ES-6, Bootstrap5, React-Bootstrap5, CSS3
-        Admin Login: thisiskakonray@gmail.com, Password:12345678`,
-      description3: "Back-end Technology: Node Js, Express Js, MongoDB.",
+        Back-end Technology: Node Js, Express Js, MongoDB.
+        `,
+      description3: "Admin Login: thisiskakonray@gmail.com, Password:12345678",
     },
 
     {
