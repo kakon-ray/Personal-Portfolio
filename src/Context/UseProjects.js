@@ -54,8 +54,8 @@ export const ProjectsProvider = (props) => {
       ServerRepoLink: "https://github.com/kakon-ray/And-Shop-Client",
       description1: "MERN Stack Single page Multivendor E-commerce app",
       description2:
-        "Front-end Technology: React.js, ES-6, Bootstrap5, React-Bootstrap5, CSS3",
-      description3: "Admin Login: admin@envobyte.com, Password:12345678",
+        "Front-end Technology: JavaScript, Next.js, Redux and Bootstrap.",
+      description3: "User / Vendor Login: admin@envobyte.com, Password:12345678",
     },
 
     {
