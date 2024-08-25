@@ -4,6 +4,7 @@ import WebBuilderImageDashboard from "../image/webbuilderdashboard.png"
 import WebBuilderImageStudent from "../image/webbuilderStudentProfile.png"
 import MarketPlace from "../image/marketplace.png"
 import MedicineShop from "../image/Medicine.png"
+import CementShop from "../image/cementshop.png"
 export const useProjects = createContext();
 
 export const ProjectsProvider = (props) => {
@@ -122,20 +123,36 @@ export const ProjectsProvider = (props) => {
 
     {
       id: "8",
-      name: "Digital Hospital",
+      name: "Scaller Clinic (Hospital)",
       img: "https://i.ibb.co/BqfS3L9/portfolio-3.png",
       img1: "https://i.ibb.co/pfDXWWK/Screenshot-3.png",
       img2: "https://i.ibb.co/BqfS3L9/portfolio-3.png",
-      liveLink: "https://hospital-d7f7f.web.app/",
-      clientRepoLink: "https://github.com/kakon-ray/Hospital",
-      ServerRepoLink: "https://github.com/kakon-ray/Hospital-Server",
-      description1: "MERN stack single page Hospital management app",
+      liveLink: "https://hospital.web-builderit.com/",
+      clientRepoLink: "https://github.com/kakon-ray/Medical-Laravel",
+      ServerRepoLink: "https://github.com/kakon-ray/Medical-Laravel",
+      description1: "Hospital / Clinic Management Website",
       description2:
-        "Front-end Technology: React.js, ES-6, Bootstrap5, React-Bootstrap5, CSS3",
-      description3: "Back-end Technology: Node Js, Express Js, MongoDB.",
+        "Front-end Technology: Bootstrap5, CSS3, jQuery",
+      description3: "Back-end Technology: Laravel, MYSQL, PHP",
     },
+
     {
       id: "9",
+      name: "Shop Management",
+      img: CementShop,
+      img1: CementShop,
+      img2: CementShop,
+      liveLink: "https://cement-shop.web-builderit.com/",
+      clientRepoLink: "https://github.com/kakon-ray/Cement-Shop",
+      ServerRepoLink: "https://github.com/kakon-ray/Cement-Shop",
+      description1: "Hospital / Clinic Management Website",
+      description2:
+        "Front-end Technology: Bootstrap5, CSS3, jQuery",
+      description3: "Back-end Technology: Laravel, MYSQL, PHP",
+    },
+
+    {
+      id: "10",
       name: "Doctors Portals",
       img: "https://i.ibb.co/P1THRMn/Screenshot-6.png",
       img1: "https://i.ibb.co/1ryfkCD/Screenshot-7.png",
@@ -150,7 +167,7 @@ export const ProjectsProvider = (props) => {
       description4: "",
     },
     {
-      id: "10",
+      id: "11",
       name: "Car Services",
       img: "https://i.ibb.co/q0HY2bw/cartdoctor1.png",
       img1: "https://i.ibb.co/8bxhKj9/cardoctor2.png",
@@ -165,7 +182,7 @@ export const ProjectsProvider = (props) => {
       description4: "",
     },
     {
-      id: "11",
+      id: "12",
       name: "Amazon",
       img: "https://i.ibb.co/ScbdwvK/amazon.png",
       img1: "https://i.ibb.co/8bxhKj9/cardoctor2.png",
