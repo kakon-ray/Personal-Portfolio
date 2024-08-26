@@ -50,7 +50,8 @@ const ProjectItem = ({ img, title, live, server, client, details, id }) => {
           {title}
         </h1>
       </div>
-      <div className="flex justify-center py-5">
+      <div className="flex justify-center py-5 gap-1">
+
         <a
           href={live}
           target="_blank"
@@ -61,7 +62,7 @@ const ProjectItem = ({ img, title, live, server, client, details, id }) => {
         >
           Live Link
         </a>
-        <a
+        {client ? <a
           data-mdb-ripple="true"
           data-mdb-ripple-color="light"
           href={client}
@@ -70,17 +71,39 @@ const ProjectItem = ({ img, title, live, server, client, details, id }) => {
           className="inline-block px-6 my-1 mx-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
         >
           Client Code
-        </a>
-        <a
+        </a> : <a
           data-mdb-ripple="true"
           data-mdb-ripple-color="light"
-          href={server}
+          href="https://github.com/kakon-ray?tab=repositories"
           target="_blank"
           type="button"
-          className="inline-block px-6 my-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
+          className="inline-block px-6 my-1 mx-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
         >
-          Server Code
+          Private Repo
+        </a>}
+
+        {
+          server ? <a
+            data-mdb-ripple="true"
+            data-mdb-ripple-color="light"
+            href={server}
+            target="_blank"
+            type="button"
+            className="inline-block px-6 my-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
+          >
+            Server Code
+          </a> : <a
+          data-mdb-ripple="true"
+          data-mdb-ripple-color="light"
+          href="https://github.com/kakon-ray?tab=repositories"
+          target="_blank"
+          type="button"
+          className="inline-block px-6 my-1 mx-1 py-3 bg-color text-white font-medium text-xs leading-tight rounded shadow-md hover:bg-pink-800 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-700 active:shadow-lg transition duration-150 ease-in-out"
+        >
+          Private Repo
         </a>
+        }
+
       </div>
     </section>
   );
