@@ -9,3 +9,7 @@
   -o-transform: rotate(-360deg);
   -webkit-transform: rotate(-360deg);
 }
+
+.heder-social-icon{
+  padding: 100px 0px;
+}
