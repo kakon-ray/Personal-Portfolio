@@ -155,8 +155,8 @@ export const ProjectsProvider = (props) => {
       img1: "https://i.ibb.co/cD90fyf/Screenshot-5.png",
       img2: "https://i.ibb.co/z2HJHN4/portfolio-5.png",
       liveLink: "https://maltikart.netlify.app/",
-      clientRepoLink: "https://github.com/kakon-ray",
-      ServerRepoLink: "https://github.com/kakon-ray",
+      clientRepoLink: "",
+      ServerRepoLink: "",
       description1: "MERN Stack Single page Multivendor E-commerce app",
       description2:
         "Front-end Technology: React.js, React Query, React Hooks Form, ES-6, Tailwind CSS, Tailwind Element, etc.",
