@@ -10,6 +10,8 @@ const Contact = () => {
     message: "",
   });
 
+  const [loading,setLoading] = useState(false);
+
 
   const handleChange = (e) => {
     setFormData({
@@ -21,7 +23,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    setLoading(true);
     try {
       const response = await axios.post("https://web-builderit.com/api/portfolio-contact", formData);
 
@@ -44,6 +46,8 @@ const Contact = () => {
         timer: 3000,
         timerProgressBar: true,
       });
+    }finally{
+      setLoading(false);
     }
   };
 
@@ -103,7 +107,7 @@ const Contact = () => {
                   type="submit"
                   className="inline-block px-6 py-2.5 mb-6 w-full bg-pink-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-pink-700 hover:shadow-lg focus:bg-pink-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-pink-800 active:shadow-lg transition duration-150 ease-in-out"
                 >
-                  Submit
+                 {loading ? "Sending..." : "Submit"} 
                 </button>
               </form>
             </div>
