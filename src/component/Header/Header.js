@@ -110,7 +110,7 @@ const Header = ({ dark }) => {
       <Fade left>
         <div className="absolute top-40 mx-4 lg:mx-16 pt-4">
           <h3 className="text-3xl font-bold text-yellow-400 uppercase">
-            Welcome To My Site
+            Welcome to My Portfolio!
           </h3>
           <div className="text-3xl lg:text-5xl dark:text-white text-gray-700 py-4">
             Hi There, I'm Kakon Ray{" "}
@@ -118,10 +118,10 @@ const Header = ({ dark }) => {
               <Typewriter
                 options={{
                   strings: [
-                    "I'm Full Stack Laravel, React.js, Next.js Developer",
-                    "I'm Front End Expert",
-                    "I'm React.js Expert",
-                    "I'm Next.js Developer",
+                    "A Full Stack Developer",
+                    "A Laravel Expert",
+                    "A React.js Expert",
+                    "A Next.js Developer",
                   ],
                   autoStart: true,
                   loop: true,
@@ -130,11 +130,16 @@ const Header = ({ dark }) => {
             </div>
           </div>
 
-          <p className="dark:text-white text-gray-700 text-lg pr-10 lg:pr-0">
-            As a Web developer, I always have enthusiasm and hunger for learning
-            new technologies.<br></br> I am always ready to deliver my full
-            potential to the company I am committed.
-          </p>
+          <div className="grid lg:grid-cols-2">
+            <p className="dark:text-white text-gray-700 text-lg pr-10 lg:pr-0">
+              I am a Full Stack Web Developer with extensive experience in
+              both frontend and backend development, proficient in designing
+              and implementing comprehensive web applications. I have three
+              years professional experience Laravel, React Js and Next Js.
+
+            </p>
+          </div>
+
           <p className="dark:text-white text-gray-700 text-lg pr-10 lg:pr-0 pt-4">
             Email: kakonray.cse@gmail.com
           </p>

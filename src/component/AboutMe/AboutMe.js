@@ -24,21 +24,18 @@ const AboutMe = () => {
                   <h2 className="text-4xl pt-8 text-yellow-400 font-bold mb-3 pb-2 uppercase">
                     About Me
                   </h2>
-                  <p className=" mb-1 text-sm lg:pr-24 ">
-                    Hi! I am Kakon, As a Web developer, I always have enthusiasm
-                    and hunger for learning new technologies. I am always ready
-                    to deliver my full potential to the company I am
-                    committed.Code will be easy to understand, Reusable
-                    components, Proper Comments
+                  <p className=" mb-1 text-lg lg:pr-24 ">
+                     <b>Hi, I'm Kakon!</b> <br /> I hold a degree in Computer Science and Engineering from Northern University and have 3 years of experience as 
+                     a full-stack web developer. I've worked with both local and Australian-based software companies, delivering high-quality web applications.
                   </p>
-                  <p className="text-white mb-2 pb-2 text-sm">
-                    Technologies Used in web application:
+                  <p className="text-white mb-2 pb-2 text-lg">
+                    Technologies I specialize in:
                   </p>
                   <div className="flex flex-wrap gap-3 mb-6 ">
-                    <SkillIcon title="Full Stack Laravel, React.js, Next.js Developer"></SkillIcon>
-                    <SkillIcon title="React.js Experts"></SkillIcon>
-                    <SkillIcon title="Next.js Experts"></SkillIcon>
-                    <SkillIcon title="Full Stack Laravel Developer"></SkillIcon>
+                    <SkillIcon title="Full Stack Development"></SkillIcon>
+                    <SkillIcon title="Laravel Expertise"></SkillIcon>
+                    <SkillIcon title="React.js Expertise"></SkillIcon>
+                    <SkillIcon title="Next.js Expertise"></SkillIcon>
                   </div>
                   <button
                     type="button"
