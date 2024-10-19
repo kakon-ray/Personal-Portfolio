@@ -10,7 +10,7 @@ const Contact = () => {
     message: "",
   });
 
-  // Input field handle করার জন্য
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -18,18 +18,20 @@ const Contact = () => {
     });
   };
 
-  // Form Submit করার function
+
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
       const response = await axios.post("https://web-builderit.com/api/portfolio-contact", formData);
-      
+
       if (response.status === 200) {
         Swal.fire({
           icon: 'success',
           title: 'Message Sent',
           text: 'Your message has been sent successfully!',
+          timer: 3000,
+          timerProgressBar: true,
         });
       } else {
         throw new Error("Failed to send message");
@@ -39,6 +41,8 @@ const Contact = () => {
         icon: 'error',
         title: 'Oops...',
         text: error.message,
+        timer: 3000,
+        timerProgressBar: true,
       });
     }
   };
