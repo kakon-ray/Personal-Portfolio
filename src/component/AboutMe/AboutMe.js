@@ -20,11 +20,11 @@ const AboutMe = () => {
           <div className="flex flex-wrap items-center">
             <div className="grow-0 shrink-0 basis-auto w-full lg:w-6/12 xl:w-8/12">
               <Fade left>
-                <div className="pr-16">
+                <div className="lg:pr-16">
                   <h2 className="text-4xl pt-8 text-yellow-400 font-bold mb-3 pb-2 uppercase">
                     About Me
                   </h2>
-                  <p className=" mb-1 text-lg lg:pr-24 ">
+                  <p className="mb-1 text-lg lg:pr-24 ">
                      <b>Hi, I'm Kakon!</b> <br /> I hold a degree in Computer Science and Engineering from Northern University and have 3 years of experience as 
                      a full-stack web developer. I've worked with both local and Australian-based software companies, delivering high-quality web applications.
                   </p>

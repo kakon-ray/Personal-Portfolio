@@ -136,7 +136,6 @@ const Header = ({ dark }) => {
               both frontend and backend development, proficient in designing
               and implementing comprehensive web applications. I have three
               years professional experience Laravel, React Js and Next Js.
-
             </p>
           </div>
 
