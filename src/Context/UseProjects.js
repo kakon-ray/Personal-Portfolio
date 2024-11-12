@@ -211,6 +211,19 @@ export const ProjectsProvider = (props) => {
         "Front-end Technology: Bootstrap5, CSS3, jQuery",
       description3: "Back-end Technology: Laravel, MYSQL, PHP",
     },
+    {
+      id: "12",
+      name: "Business Marketing Agency",
+      img: "https://i.ibb.co.com/0ZWYPDF/Screenshot-9.png",
+      img1: "https://i.ibb.co.com/0ZWYPDF/Screenshot-9.png",
+      img2: "https://i.ibb.co.com/0ZWYPDF/Screenshot-9.png",
+      liveLink: "https://businessmarketingagencyusa.netlify.app/",
+      clientRepoLink: "",
+      ServerRepoLink: "",
+      description1: "",
+      description2:"Front-end Technology: React JS, Tailwind CSS, Javascript",
+      description3: "Back-end Technology: Laravel, MYSQL, PHP",
+    },
 
     {
       id: "13",
